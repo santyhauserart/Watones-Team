@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Interact
+  - Damage
+  - NPC
+  - Button
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ground1
+    uniqueID: 3882400025
+    locked: 0
+  - name: Ground2
+    uniqueID: 3429703099
+    locked: 0
+  - name: Ground3
+    uniqueID: 550851391
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: WalkInFront
+    uniqueID: 1669395439
+    locked: 0
+  - name: Collision
+    uniqueID: 3792049053
+    locked: 0
+  - name: Player
+    uniqueID: 1626670865
+    locked: 0
+  - name: WalkBehind
+    uniqueID: 897913071
+    locked: 0
+  - name: Deco
+    uniqueID: 4251229843
+    locked: 0
+  m_RenderingLayers:
+  - Default
