@@ -1,7 +1,4 @@
 using UnityEngine;
-#region ¿Que hace este script?
-// desactiva y activa el menu
-#endregion
 public class MenuController : MonoBehaviour
 {
     public GameObject menuCanvas;
