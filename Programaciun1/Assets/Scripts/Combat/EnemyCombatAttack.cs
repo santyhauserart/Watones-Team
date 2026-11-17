@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyCombatAttack : MonoBehaviour
@@ -8,6 +9,7 @@ public class EnemyCombatAttack : MonoBehaviour
     [SerializeField] private int maxBullets = 3;
     [SerializeField] private int degrees = 30;
     private float nextShootTime;
+    private List<GameObject> bullets = new List<GameObject>();
     private void OnEnable()
     {
         nextShootTime = Time.time + 1f;
@@ -30,6 +32,18 @@ public class EnemyCombatAttack : MonoBehaviour
             Vector2 turned = Quaternion.Euler(0, 0, angle) * playerDirection;
             GameObject newBullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
             newBullet.GetComponent<BulletEnemy>().SetDirection(turned);
+            bullets.Add(newBullet);
         }
+    }
+    public void ClearBullets()
+    {
+        foreach (GameObject bullet in bullets)
+        {
+            if (bullet != null)
+            {
+                Destroy(bullet);
+            }
+        }
+        bullets.Clear();
     }
 }

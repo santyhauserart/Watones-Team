@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3cc17c8283c9a840a839ffc85993acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 
+  button: Item
 --- !u!58 &380730534
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3cc17c8283c9a840a839ffc85993acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: Run
+  button: Flee
 --- !u!58 &979616104
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1893,6 +1893,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prototypeScene: PrototypeScene
+  fleeImmunitySeconds: 3
+  player: {fileID: 1482311663}
+  fleeDamage: 1
 --- !u!4 &1396580183
 Transform:
   m_ObjectHideFlags: 0
@@ -1981,6 +1984,7 @@ MonoBehaviour:
   rb: {fileID: 1482311662}
   keys: 
   separation: 1.5
+  maxLife: 20
 --- !u!212 &1482311664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2111,6 +2115,7 @@ MonoBehaviour:
   enemyCombat: {fileID: 671329387}
   turnManager: {fileID: 672297596}
   combatResult: {fileID: 1396580182}
+  healAmount: 3
 --- !u!1 &1687674286
 GameObject:
   m_ObjectHideFlags: 0

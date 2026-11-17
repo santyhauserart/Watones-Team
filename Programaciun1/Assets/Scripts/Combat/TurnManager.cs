@@ -25,6 +25,7 @@ public class TurnManager : MonoBehaviour
     }
     public void StartPlayerTurn()
     {
+        enemyAttack.ClearBullets();
         enemyAttack.enabled = false;
         playerTurn.enabled = true;
         enemyTurn.enabled = false;

@@ -10,7 +10,8 @@ public class CombatMenu : MonoBehaviour
     [SerializeField] private EnemyCombat enemyCombat;
     [SerializeField] private TurnManager turnManager;
     [SerializeField] private CombatResult combatResult;
-    
+    [SerializeField] private int healAmount = 3;
+
     private void OnEnable()
     {
         transform.position = slots[currentSlot].position;
@@ -54,6 +55,7 @@ public class CombatMenu : MonoBehaviour
             }
             if (currentButton != null && Input.GetKeyDown(KeyCode.Z))
             {
+
                 if (currentButton.button == "Attack")
                 {
                     int damage = Random.Range(minDamage, maxDamage + 1);
@@ -67,7 +69,21 @@ public class CombatMenu : MonoBehaviour
                         turnManager.StartEnemyTurn();
                     }
                 }
+            if (currentButton.button == "Flee")
+            {
+                combatResult.Flee();
             }
+            if (currentButton.button == "Item")
+            {
+                Player player = turnManager.enemyTurn;
+                if (player.life < player.maxLife && Inventory.Remove("Potion"))
+                {
+                    player.Heal(healAmount);
+                    turnManager.StartEnemyTurn();
+                }
+            }
+
+        }
     }
 
 }

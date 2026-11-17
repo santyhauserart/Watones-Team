@@ -21,19 +21,26 @@ public class EnemyPatrol : MonoBehaviour
         if (GameState.defeatedGuards.Contains(guardId))
         {
             Destroy(gameObject);
+            return;
+        }
+        if (GameState.guardPositions.ContainsKey(guardId))
+        {
+            transform.position = GameState.guardPositions[guardId];
+            currentIndex = GameState.guardWaypoints[guardId];
         }
     }
     private void Update()
     {
         if (isChasing)
         {
+            if (Time.time < GameState.encounterImmuneUntil) return;
             Vector2 playerDirection = (player.transform.position - transform.position).normalized;
             if (!inEncounter)
             {
                 transform.Translate(playerDirection * speed * Time.deltaTime, Space.World);
             }
             float distancePlayer = Vector2.Distance(transform.position, player.transform.position);
-            if (distancePlayer < encounterDistance && !inEncounter)
+            if (distancePlayer < encounterDistance && !inEncounter && Time.time >= GameState.encounterImmuneUntil)
             {
                inEncounter = true;
                player.SetCanMove(false);
@@ -43,6 +50,8 @@ public class EnemyPatrol : MonoBehaviour
                 }
                 GameState.playerPosition = player.transform.position;
                 GameState.hasSavedPosition = true;
+                GameState.guardPositions[guardId] = transform.position;
+                GameState.guardWaypoints[guardId] = currentIndex;
                 SceneManager.LoadScene(combatScene);
             }
         }

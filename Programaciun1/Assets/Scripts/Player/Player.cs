@@ -17,12 +17,21 @@ public class Player : MonoBehaviour
     public int[] keys;
     private bool isMoving = false;
     [SerializeField] private float separation = 1.5f;
+    public int maxLife = 20;
 
 
     #endregion
     void Start()
     {
         isMoving = true;
+        if (GameState.playerLife > 0)
+        {
+            life = GameState.playerLife;
+        }
+        else
+        {
+            GameState.playerLife = life;
+        }
     }
     void Update()
     {
@@ -58,10 +67,15 @@ public class Player : MonoBehaviour
         {
             print($"perdiste -{damage.damage} puntos de vida");
             life -= damage.damage;
+            GameState.playerLife = life;
             print($"Ahora tienes {life} puntos de vida");
         }
     }
-
+    public void Heal(int amount)
+    {
+        life = Mathf.Min(life + amount, maxLife);
+        GameState.playerLife = life;
+    }
     void DeathPlayer()
     {
         print("El jugador murio");

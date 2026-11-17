@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 public class CombatResult : MonoBehaviour
 {
     [SerializeField] private string prototypeScene = "PrototypeScene";
+    [SerializeField] private float fleeImmunitySeconds = 3f;
+    [SerializeField] private Player player;
+    [SerializeField] private int fleeDamage = 5;
 
     private void Update()
     {
@@ -32,6 +35,8 @@ public class CombatResult : MonoBehaviour
     public void Lose()
     {
         GameState.encounterGuards.Clear();
+        GameState.guardPositions.Clear();
+        GameState.guardWaypoints.Clear();
 
         if (GameState.hasSavePoint)
         {
@@ -40,6 +45,20 @@ public class CombatResult : MonoBehaviour
             GameState.defeatedGuards = new List<int>(GameState.savedDefeatedGuards);
         }
 
+        SceneManager.LoadScene(prototypeScene);
+    }
+    public void Flee()
+    {
+        player.life -= fleeDamage;
+        GameState.playerLife = player.life;
+
+        if (player.life <= 0)
+        {
+            Lose();
+            return;
+        }
+        GameState.encounterGuards.Clear();
+        GameState.encounterImmuneUntil = Time.time + fleeImmunitySeconds;
         SceneManager.LoadScene(prototypeScene);
     }
 }
