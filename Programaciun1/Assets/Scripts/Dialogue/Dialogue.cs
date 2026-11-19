@@ -1,147 +1,205 @@
-#region ¿Que hacen las librerias?
-// 
-#endregion
 using System.Collections;
 using UnityEngine;
 using TMPro;
-#region Que hace este script?
-// Gestiona el dialogo
-#endregion
 public class Dialogue : MonoBehaviour
+#region Qué hace el script
+//Este script es una conversación con un personaje: cuando te acercás y apretás Z, aparece una cajita de texto
+//que escribe las frases letra por letra, como una máquina de escribir.
+//Si apretás Z mientras escribe, muestra la frase completa de golpe; si apretás Z con la frase completa, pasa a la siguiente.
+//Mientras dura la charla, el juego queda en pausa.
+#endregion
 {
-    #region ¿Que proposito cumplen las variables?
-    // dialogueMark -> Me deja colocar el indicador de interaccion, a traves del inspector, a mi script para modificarlo a traves del codigo
-    // dialoguePanel -> Me deja colocar el panel de dialogo, a traves del inspector, a mi script para modificarlo a traves del codigo
-    // dialogueText -> Me permite colocar en el inspector el texto para utilizarlo en mi script
-    // dialogueLines -> Creo un array de lineas de texto y le doy un espaciado de 4-6 lineas visibles en el inspector
-    // isPlayerInRange -> Booleano para verificar si el jugador entre en un rango
-    // didDialogueStart -> verifica si el dialogo inicio
-    // lineIndex -> indica la linea de dialogo actual
-    // typingTime -> El tiempo que tarda en pasar de un caracter a otro
-    #endregion
-    #region Variables
     [SerializeField] private GameObject dialogueMark;
-    [SerializeField] private GameObject dialoguePanel;
-    [SerializeField] private TMP_Text dialogueText;
-    [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
-    private bool isPlayerInRange;
-    private bool didDialogueStart;
-    private int lineIndex;
-    private float typingTime = 0.05f;
+    #region El cartelito de hablar
+    //Es el dibujito que avisa "podés hablar conmigo" (por ejemplo, un signo de exclamación). Se arrastra desde el Inspector.
     #endregion
-    #region ¿Que hace Update?
-    // Si el jugador entra en rango y presiona z
-    // Si el dialogo no inicio -> inicia el dialogo
-    // Si la linea de dialogo esta completa -> pasa a la siguiente linea
-    // Si el dialogo aun no esta completo -> corta la animacion de tipeo y completa el dialogo de golpe
+    [SerializeField] private GameObject dialoguePanel;
+    #region La cajita de la charla
+    //Es el panel donde aparece el texto de la conversación (el fondo y el texto). Se arrastra desde el Inspector.
+    #endregion
+    [SerializeField] private TMP_Text dialogueText;
+    #region El texto que se escribe
+    //Es el texto donde se van escribiendo las frases. Se arrastra desde el Inspector.
+    #endregion
+    [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
+    #region Las frases de la charla
+    //Es la lista de frases que dice el personaje, en orden. Se escriben en el Inspector.
+    //TextArea(4, 6) hace que cada frase tenga una cajita de texto grande: entre 4 y 6 renglones de alto.
+    #endregion
+    private bool isPlayerInRange;
+    #region ¿Está cerca el jugador?
+    //Es un cartelito de sí o no: "¿el jugador está lo bastante cerca para hablar?".
+    #endregion
+    private bool didDialogueStart;
+    #region ¿Ya empezó la charla?
+    //Es un cartelito de sí o no: "¿la conversación ya empezó?".
+    #endregion
+    private int lineIndex;
+    #region Número de la frase
+    //Es el número de la frase que se está diciendo ahora. Es como el dedo que va señalando la lista.
+    #endregion
+    private float typingTime = 0.05f;
+    #region Tiempo entre letras
+    //Es cuántos segundos pasan entre una letra y la siguiente cuando escribe. Más chico, más rápido escribe.
     #endregion
     void Update()
     {
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.Z))
+        #region ¿Cerca y apretó Z?
+        //Pregunta: "¿el jugador está cerca, y además apretó Z en este instante?".
+        #endregion
         {
             if (!didDialogueStart)
+            #region ¿Todavía no empezó?
+            //Pregunta: "¿la charla todavía NO empezó?".
+            #endregion
             {
                 StartDialogue();
             }
             else if(dialogueText.text == dialogueLines[lineIndex])
+            #region ¿Terminó de escribir?
+            //Pregunta: "¿lo que está escrito en pantalla es igual a la frase completa?". O sea, "¿ya terminó de escribir esta frase?".
+            #endregion
             {
                 NextDialogueLine();
             }
             else
+            #region Si no, está escribiendo
+            //else significa "si no...": la charla ya empezó y la frase todavía se está escribiendo.
+            #endregion
             {
                 StopAllCoroutines();
+                #region Frenar la escritura
+                //Frena la máquina de escribir, o sea, la rutina que va poniendo las letras.
+                #endregion
                 dialogueText.text = dialogueLines[lineIndex];
+                #region Mostrar la frase entera
+                //Pone la frase completa de golpe, sin esperar las letras que faltaban.
+                #endregion
             }
         }
     }
-    #region ¿Que hace StarDialogue?
-    // Funcion General: inicia el dialogo
-    // Avisa que el dialogo inicio
-    // Visible el cuadro de dialogo
-    // Invisible el icono de interaccion
-    // Reinicia el LineIndex
-    // timeScale = 0 _ Pone en pausa toda la física y el tiempo del juego (a nivel global)
-    // timeScale no afecta a Time.unscaledDeltaTime que se usa para menu
-    // Llama a ShowLine
-    // StartCoroutine crea una funcion que puede pausarse y continuar por si misma, sin pausar el juego
-    #endregion
     private void StartDialogue()
     {
         didDialogueStart = true;
+        #region Marcar que empezó
+        //Cambia el cartelito a sí: la charla ya empezó.
+        #endregion
         dialoguePanel.SetActive(true);
+        #region Mostrar la cajita
+        //Muestra el panel de la conversación.
+        #endregion
         dialogueMark.SetActive(false);
+        #region Esconder el cartelito
+        //Esconde el cartelito de "podés hablar", porque ya estás hablando.
+        #endregion
         lineIndex = 0;
+        #region Volver a la primera frase
+        //Pone el dedo en la primera frase de la lista (la número 0), para empezar desde el principio.
+        #endregion
         Time.timeScale = 0f;
+        #region Pausar el juego
+        //Frena el tiempo del juego mientras dura la charla. Los guardias, las balas y todo lo demás quedan quietos.
+        //Time.timeScale: qué tan rápido pasa el tiempo. 1 es normal y 0 es pausa total.
+        //Ojo: el Update de este script sigue funcionando, y por eso la tecla Z anda igual.
+        #endregion
         StartCoroutine(ShowLine());
+        #region Empezar a escribir
+        //Arranca la rutina que escribe la frase letra por letra.
+        #endregion
     }
-    #region ¿Que hace ShowLine?
-    // Funcion general: se encarga de mostrar el texto caracter x caracter
-    // IEnumerator convierte un metodo normal en coroutine
-    // Se le asigna un string vacio al texto
-    // Por cada caracter en la linea de dialogo actual
-    // Se va sumando los caracteres 1 por 1 que corresponden a dicha linea de dialogo
-    // yield return pausa el tiempo entre que aparece cada caracter
-    #endregion
     private IEnumerator ShowLine()
+    #region La máquina de escribir
+    //Es la rutina que escribe la frase actual, letra por letra.
+    #endregion
     {
         dialogueText.text = string.Empty;
-
-        foreach(char ch in dialogueLines[lineIndex])
+        #region Borrar el texto
+        //Deja el texto vacío, para empezar a escribir de cero. Es como borrar el pizarrón antes de escribir.
+        #endregion
+        foreach (char ch in dialogueLines[lineIndex])
+        #region Letra por letra
+        //Es un repetidor: agarra las letras de la frase de a una, y lo de adentro se hace con cada una.
+        #endregion
         {
             dialogueText.text += ch;
+            #region Agregar la letra
+            //Agrega la letra al final de lo que ya está escrito.
+            //+=: significa "sumale". Con texto, sumar es pegar. Ejemplo: "Ho" + "l" queda "Hol".
+            #endregion
             yield return new WaitForSecondsRealtime(typingTime);
+            #region Esperar entre letras
+            //Pausa la rutina un ratito y después sigue con la letra siguiente.
+            #endregion
         }
     }
-    #region ¿Que hace NextDialogueLine?
-    // Suma 1 al lineIndex
-    // Si lineIndex es menor a la totalidad de las lineas de dialogo -> llama a ShowLine
-    // Si lineIndex es mayor ->
-    // se desactiva el panel del dialogo
-    // se vuelve a activar el icono de interaccion
-    // y el timeScale vuelve a 1 (el personaje se puede mover)
-    #endregion
     private void NextDialogueLine()
     {
         lineIndex++;
-        if(lineIndex < dialogueLines.Length)
+        #region Mover el dedo
+        //Pasa a la frase siguiente.
+        #endregion
+        if (lineIndex < dialogueLines.Length)
+        #region ¿Quedan frases?
+        //Pregunta: "¿todavía hay una frase con ese número?".
+        #endregion
         {
             StartCoroutine(ShowLine());
+            #region Escribir la siguiente
+            //Arranca la máquina de escribir con la frase nueva.
+            #endregion
         }
         else
+        #region Si no, terminó la charla
+        //else significa "si no...": ya no quedan frases, así que la conversación se termina.
+        #endregion
         {
             didDialogueStart = false;
+            #region Marcar que terminó
+            //Cambia el cartelito a no: la charla ya no está en curso. false: significa "no".
+            //Sirve para que, si volvés a apretar Z, la conversación empiece de nuevo.
+            #endregion
             dialoguePanel.SetActive(false);
+            #region Esconder la cajita
+            //Apaga el panel de la conversación, y deja de verse.
+            #endregion
             dialogueMark.SetActive(true);
+            #region Mostrar el cartelito
+            //Vuelve a mostrar el cartelito de "podés hablar", porque el jugador sigue cerca.
+            #endregion
             Time.timeScale = 1f;
+            #region Despausar el juego
+            //Devuelve el tiempo a la velocidad normal, y el juego sigue.
+            #endregion
         }
     }
-    #region ¿Que hace OnTriggerEnter2D?
-    // Si el jugador tiene tag player y colisiona con el trigger de dialogo ->
-    // El rango de interaccion se activa
-    // La marca de interaccion aparece
-    // Print avisa que funciona el dialogo
-    #endregion
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.CompareTag("Player"))
         {
             isPlayerInRange = true;
+            #region Marcar que está cerca
+            //Cambia el cartelito a sí: el jugador está cerca y puede hablar.
+            #endregion
             dialogueMark.SetActive(true);
+            #region Mostrar el cartelito
+            //Muestra el cartelito de "podés hablar".
+            #endregion
             print("se puede iniciar dialogo");
         }
     }
-    #region ¿Que hace OnTriggerExit2D?
-    // // Si el jugador tiene tag player sale de la colision con el trigger de dialogo ->
-    // El rango de interaccion se desactiva
-    // La marca de interaccion desaparece
-    // Print avisa que NO funciona el dialogo
-    #endregion
     private void OnTriggerExit2D(Collider2D collision)
     {
         if(collision.gameObject.CompareTag("Player"))
         {
             isPlayerInRange = false;
+            #region Marcar que se alejó
+            //Cambia el cartelito a no: el jugador ya no está cerca, y Z ya no inicia la charla.
+            #endregion
             dialogueMark.SetActive(false);
+            #region Esconder el cartelito
+            //Esconde el cartelito de "podés hablar", porque ya no estás cerca.
+            #endregion
             print("NO se puede iniciar dialogo");
         }
     }
