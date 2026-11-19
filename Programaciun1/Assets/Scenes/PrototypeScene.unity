@@ -5957,6 +5957,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gate: {fileID: 1135887312}
+  visual: {fileID: 384168093}
+  releasedColor: {r: 1, g: 1, b: 1, a: 1}
+  pressedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!61 &384168092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6468,6 +6471,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gate: {fileID: 1135887312}
+  visual: {fileID: 492352621}
+  releasedColor: {r: 1, g: 1, b: 1, a: 1}
+  pressedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!61 &492352620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7124,7 +7130,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0602934, y: -0.7904219, z: -10.000027}
+  m_LocalPosition: {x: -1.0483913, y: -0.7904519, z: -10.000027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17222,6 +17228,9 @@ MonoBehaviour:
   separation: 0.8
   maxLife: 5
   inCombat: 0
+  spriteRenderer: {fileID: 0}
+  blinkTime: 0.1
+  blinkCount: 5
 --- !u!114 &1347989441
 MonoBehaviour:
   m_ObjectHideFlags: 0

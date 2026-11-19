@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 220081029}
   - component: {fileID: 220081028}
   - component: {fileID: 220081027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemyAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,8 +448,8 @@ Transform:
   m_GameObject: {fileID: 342384814}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.91, y: -0.32, z: -0.005686472}
-  m_LocalScale: {x: 2.5097, y: 1, z: 1}
+  m_LocalPosition: {x: -5.01, y: -0.3487, z: -0.005686472}
+  m_LocalScale: {x: 0.9428027, y: 0.789371, z: 0.8763}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1687674287}
@@ -499,7 +499,7 @@ SpriteRenderer:
   m_SortingLayerID: 550851391
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -5568003440550310426, guid: 76bb6fbbfdbf696439caf2ffc65e4b98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1289,7 +1289,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &920230857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1931,7 +1931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1015688377
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2645,9 +2645,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687674286}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.343, y: -0, z: 0}
-  m_LocalScale: {x: 0.2618597, y: 0.6369059, z: 0.8608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.80698335, y: 0.03635813, z: 0}
+  m_LocalScale: {x: 0.69705915, y: 0.8068524, z: 0.982312}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 342384815}
@@ -3035,7 +3035,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2083415541
 SpriteRenderer:
   m_ObjectHideFlags: 0
