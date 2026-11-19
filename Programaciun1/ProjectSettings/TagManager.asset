@@ -87,6 +87,9 @@ TagManager:
   - name: DelanteJugador2
     uniqueID: 594853277
     locked: 0
+  - name: PaletaDelante4
+    uniqueID: 1443697711
+    locked: 0
   - name: PaletaDelante3
     uniqueID: 3729161649
     locked: 0

@@ -43,4 +43,10 @@ public static class GameState
     public static List<int> collectedPickups = new List<int>();
     //Es la libretita de las cosas ya levantadas del mapa (por ejemplo, las pociones).
     //Cada renglón es el pickupId de algo que ya agarraste, para que no reaparezca. ItemPickup la usa.
+
+    //nuevo:
+    public static string currentRoom = "";
+    //Es el nombre de la sala donde está la cámara ahora. "" quiere decir: ninguna anotada.
+    public static string savedRoom = "";
+    //Es la foto de currentRoom en el momento en que pasaste por un punto de guardado.
 }

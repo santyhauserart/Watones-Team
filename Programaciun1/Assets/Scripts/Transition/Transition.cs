@@ -133,6 +133,8 @@ public class Transition : MonoBehaviour
         //Le dice a la cámara que ahora su cerca invisible es la de la zona nueva (mapBoundary).
         //BoundingShape2D: la forma que limita a la cámara.
         #endregion
+        //nuevo:
+        GameState.currentRoom = mapBoundary.name; //anotar la sala
         confiner.InvalidateBoundingShapeCache();
         #region Refrescar la cerca
         //Le avisa a la cámara que la cerca cambió y que vuelva a calcularla.

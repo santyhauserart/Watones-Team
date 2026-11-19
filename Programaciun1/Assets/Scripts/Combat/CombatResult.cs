@@ -63,6 +63,9 @@ public class CombatResult : MonoBehaviour
         if (GameState.hasSavePoint)
         //Pregunta: “¿el jugador ya pasó por un punto de guardado?” hasSavePoint es un sí o no (bool).
         {
+            //nuevo:
+            GameState.currentRoom = GameState.savedRoom;
+
             GameState.playerPosition = GameState.savePointPosition;
             //Manda al jugador al punto de guardado.
 
@@ -71,6 +74,11 @@ public class CombatResult : MonoBehaviour
 
             GameState.defeatedGuards = new List<int>(GameState.savedDefeatedGuards);
             //Devuelve la lista de guardias derrotados a como estaba en el punto de guardado. Los guardias derrotados después de guardar reviven. 
+        }
+        //nuevo
+        else
+        {
+            GameState.currentRoom = "";
         }
 
         SceneManager.LoadScene(prototypeScene);

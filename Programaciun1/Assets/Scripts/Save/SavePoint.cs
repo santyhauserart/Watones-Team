@@ -16,6 +16,9 @@ public class SavePoint : MonoBehaviour
             GameState.savedDefeatedGuards = new List<int>(GameState.defeatedGuards);
             //guarda los enemigos derrotados creando una lista nueva con la cantidad de guardias
             //derrotados(sin guardar aun) que tambien se encuentra en GameState
+
+            //nuevo
+            GameState.savedRoom = GameState.currentRoom; //sacar la foto
         }
     }
 }
