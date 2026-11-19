@@ -19,8 +19,28 @@ public class NPC2 : MonoBehaviour
     #region Distancia para frenar
     //Es qué tan cerca del punto tiene que estar para decir "llegué" y quedarse quieto.
     #endregion
+
+    private GateButton currentButton; // NUEVO
+
+
+    private void Start() // NUEVO: solo para probar; después lo sacamos
+    {
+        SnapToPlayer(); // NUEVO: al empezar, el NPC se pega al jugador
+    }
+
+    public void SnapToPlayer() // NUEVO: la orden "pegate al jugador"
+    {
+        transform.position = player.GetTargetPoint();
+        //transform.position = player.targetPoint; // NUEVO: salta de golpe al punto donde debe pararse
+    }
     private void Update()
     {
+        if (currentButton != null && !currentButton.GateIsOpen)    // NUEVO
+        {                                                          // NUEVO
+            transform.position = Vector2.MoveTowards(transform.position, currentButton.transform.position, speed * Time.deltaTime);  // NUEVO
+            return;                                                // NUEVO
+        }
+
         float distance = Vector2.Distance(transform.position, player.targetPoint);
         #region Medir cuánto falta
         //Mide cuánto lo separa del punto de atrás del jugador. Es como medir con una regla.
@@ -59,4 +79,22 @@ public class NPC2 : MonoBehaviour
         //Space.World: "movete según el mapa, sin importar para dónde esté girado el NPC".
         #endregion
     }
+    private void OnTriggerEnter2D(Collider2D collision)       // NUEVO (todo el método)
+    {
+        if (collision.TryGetComponent<GateButton>(out GateButton gateButton))
+        {
+            currentButton = gateButton;
+            print("entered button: " + gateButton.name);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)        // NUEVO (todo el método)
+    {
+        if (collision.TryGetComponent<GateButton>(out GateButton gateButton) && gateButton == currentButton)
+        {
+            currentButton = null;
+            print("left button: " + gateButton.name);
+        }
+    }
+
 }

@@ -27,6 +27,10 @@ public class TurnManager : MonoBehaviour
     public EnemyCombatAttack enemyAttack;
     //Es el script que dispara las balas. TurnManager lo prende y lo apaga.
 
+    //Nuevo
+    [SerializeField] private CombatResult combatResult;
+    //Para avisar que el jugador perdió. Se arrastra desde el Inspector.
+
     private void Start()
     {
         StartPlayerTurn();
@@ -35,8 +39,17 @@ public class TurnManager : MonoBehaviour
     private void Update()
     {
         if (enemyTurn.enabled)
-        //Pregunta: “¿el Player está prendido?”, o sea, “¿es el turno del enemigo?”.
+            //Pregunta: “¿el Player está prendido?”, o sea, “¿es el turno del enemigo?”.
         {
+            //nuevo
+            if (enemyTurn.life <= 0)
+            //Pregunta: "¿al jugador se le acabó la vida?"
+            {
+                combatResult.Lose();
+                return;
+                //Corta el Update para que no siga con el reloj ni llame a Lose dos veces.
+            }
+
             timeRemaining -= Time.deltaTime;
             //Gasta un poquito del relojito de arena.
             //Sumando muchos cuadritos, el reloj baja 1 por cada segundo real.

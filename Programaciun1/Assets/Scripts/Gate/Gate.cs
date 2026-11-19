@@ -6,7 +6,7 @@ public class Gate : MonoBehaviour
 //Cuenta cuántos botones están apretados y, cuando llega al número que necesita, apaga su collider y la reja deja pasar.
 #endregion
 {
-    [SerializeField] int buttonsNeeded = 3;
+    [SerializeField] int buttonsNeeded = 2;
     #region Botones que hacen falta
     //Es cuántos botones hay que apretar para abrir la reja.
     #endregion

@@ -78,6 +78,9 @@ public class Player : MonoBehaviour
     //Es lo máximo de vida que puede tener el jugador, como el tope de un vaso.
     //Heal lo usa para que no te cures de más. Tiene que valer lo mismo en las dos escenas.
     #endregion
+
+    //nuevo
+    public bool inCombat = false;
     #endregion
     void Start()
     {
@@ -104,13 +107,17 @@ public class Player : MonoBehaviour
             #endregion
         }
     }
+    public Vector2 GetTargetPoint() // NUEVO: calcula el punto de atrás en este mismo instante
+    {
+        return (Vector2)transform.position - lastDirection * separation; // NUEVO
+    }
     void Update()
     {
         input = moveInput.action.ReadValue<Vector2>();
         #region Leer los controles
         //Mira los controles y anota hacia dónde está empujando el jugador.
         #endregion
-        if (life <= 0)
+        if (life <= 0 && !inCombat)
         #region ¿Se quedó sin vida?
         //Pregunta: "¿la vida llegó a cero o menos?".
         #endregion
@@ -154,7 +161,9 @@ public class Player : MonoBehaviour
         //-lastDirection: el menos da vuelta la flechita (si mira abajo, esto apunta arriba).
         //*: multiplica. separation: qué tan lejos. Ejemplo: mira abajo (0,-1) y separación 1,5 da (0, 1,5).
         #endregion
-        targetPoint = (Vector2)transform.position + offset;
+
+        targetPoint = GetTargetPoint(); // CAMBIADO: antes era "(Vector2)transform.position + offset", ahora usa el método
+        //targetPoint = (Vector2)transform.position + offset;
         #region Calcular punto de atrás
         //Calcula un punto detrás del jugador.
         //transform.position: dónde está el jugador. Es un Vector3, con tres números.
@@ -205,6 +214,7 @@ public class Player : MonoBehaviour
             #region Perder vida
             //Le saca vida al jugador.
             #endregion
+
             GameState.playerLife = life;
             #region Anotar la vida nueva
             //Copia la vida nueva al pizarrón (GameState), así no se pierde al cambiar de escena.

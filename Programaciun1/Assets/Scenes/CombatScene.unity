@@ -1006,6 +1006,7 @@ MonoBehaviour:
   timeEnemyAttack: 10
   timeRemaining: 0
   enemyAttack: {fileID: 220081027}
+  combatResult: {fileID: 1396580182}
 --- !u!4 &672297597
 Transform:
   m_ObjectHideFlags: 0
@@ -2189,6 +2190,7 @@ MonoBehaviour:
   rb: {fileID: 1482311662}
   separation: 1.5
   maxLife: 20
+  inCombat: 1
 --- !u!212 &1482311664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2231,7 +2233,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1626670865
-  m_SortingLayer: 4
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0.13679248, b: 0.13679248, a: 1}
