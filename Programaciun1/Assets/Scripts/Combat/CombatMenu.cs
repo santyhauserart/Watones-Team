@@ -63,10 +63,10 @@ public class CombatMenu : MonoBehaviour
     }
     private void Update()
     {
-            int column = currentSlot % columns;
+            //int column = currentSlot % columns;
         //Calcula en qué columna está la manito.
 
-        if (Input.GetKeyDown(KeyCode.RightArrow) && currentSlot < slots.Length - 1 && column != 1)
+        if (Input.GetKeyDown(KeyCode.RightArrow) && currentSlot < slots.Length - 1 /*&& column != 1*/)
         //Pregunta: “¿apretaste derecha, y hay casilla a la derecha?”
 
         {
@@ -76,25 +76,25 @@ public class CombatMenu : MonoBehaviour
             transform.position = slots[currentSlot].position;
             //Mueve la manito a la casilla nueva. (Esta línea se repite en las cuatro flechas.)
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow) && currentSlot + columns < slots.Length)
-        //Pregunta: “¿apretaste abajo, y hay casilla debajo?” Sumar columns es “saltar una fila entera”. Si ese número todavía
-        //es menor que la cantidad de casillas, la casilla existe.
-        {
-            currentSlot += columns;
-            //Baja una fila: salta tantas casillas como columnas haya.
+        //if (Input.GetKeyDown(KeyCode.DownArrow) && currentSlot + columns < slots.Length)
+        ////Pregunta: “¿apretaste abajo, y hay casilla debajo?” Sumar columns es “saltar una fila entera”. Si ese número todavía
+        ////es menor que la cantidad de casillas, la casilla existe.
+        //{
+        //    currentSlot += columns;
+        //    //Baja una fila: salta tantas casillas como columnas haya.
 
-            transform.position = slots[currentSlot].position;
-            }
-            if (Input.GetKeyDown(KeyCode.LeftArrow) && currentSlot > 0 && column != 0)
+        //    transform.position = slots[currentSlot].position;
+        //    }
+            if (Input.GetKeyDown(KeyCode.LeftArrow) && currentSlot > 0 /*&& column != 0*/)
             {
                 currentSlot -= 1;
                 transform.position = slots[currentSlot].position;
             }
-            if (Input.GetKeyDown(KeyCode.UpArrow) && currentSlot - columns >= 0)
-            {
-                currentSlot -= columns;
-                transform.position = slots[currentSlot].position;
-            }
+            //if (Input.GetKeyDown(KeyCode.UpArrow) && currentSlot - columns >= 0)
+            //{
+            //    currentSlot -= columns;
+            //    transform.position = slots[currentSlot].position;
+            //}
             if (currentButton != null && Input.GetKeyDown(KeyCode.Z))
         //Pregunta: “¿estás tocando un botón y apretaste Z?”
         {

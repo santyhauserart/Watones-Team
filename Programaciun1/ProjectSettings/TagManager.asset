@@ -63,8 +63,41 @@ TagManager:
   - name: Party
     uniqueID: 2331190339
     locked: 0
+  - name: DetrasDePaleta
+    uniqueID: 1509978119
+    locked: 0
+  - name: PaletaDetras4
+    uniqueID: 2628132689
+    locked: 0
+  - name: PaletaDetras3
+    uniqueID: 610816243
+    locked: 0
+  - name: PaletaDetras2
+    uniqueID: 3708671827
+    locked: 0
+  - name: PaletaDetras1
+    uniqueID: 2087251893
+    locked: 0
+  - name: DelanteDePaleta
+    uniqueID: 2008010197
+    locked: 0
   - name: Player
     uniqueID: 1626670865
+    locked: 0
+  - name: DelanteJugador2
+    uniqueID: 594853277
+    locked: 0
+  - name: PaletaDelante3
+    uniqueID: 3729161649
+    locked: 0
+  - name: PaletaDelante2
+    uniqueID: 762971003
+    locked: 0
+  - name: PaletaDelante1
+    uniqueID: 3955512309
+    locked: 0
+  - name: DelanteJugador1
+    uniqueID: 2012755391
     locked: 0
   - name: WalkBehind
     uniqueID: 897913071
