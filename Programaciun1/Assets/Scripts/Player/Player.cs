@@ -82,30 +82,45 @@ public class Player : MonoBehaviour
     //nuevo
     public bool inCombat = false;
     #endregion
+
+    void Awake()                                   // NUEVO (método nuevo, va antes de Start)
+    
+    {
+        Debug.Log("Awake life: " + life + " / GameState: " + GameState.playerLife);// NUEVO
+        if (GameState.playerLife > 0)              // CAMBIADO de lugar (antes estaba en Start)
+        {                                          // CAMBIADO de lugar
+            life = GameState.playerLife;           // CAMBIADO de lugar
+        }                                          // CAMBIADO de lugar
+        else                                       // CAMBIADO de lugar
+        {                                          // CAMBIADO de lugar
+            GameState.playerLife = life;           // CAMBIADO de lugar
+        }                                          // CAMBIADO de lugar
+    }                                              // NUEVO
     void Start()
     {
         isMoving = true;
         #region Dejar que se mueva
         //Cambia el cartelito a sí: el jugador ya se puede mover.
         #endregion
-        if (GameState.playerLife > 0)
+
+        //if (GameState.playerLife > 0)
         #region ¿Hay vida guardada?
         //Pregunta: "¿en el pizarrón (GameState) hay una vida anotada?".
         #endregion
-        {
-            life = GameState.playerLife;
+        //{
+        //    life = GameState.playerLife;
             #region Leer la vida guardada
             //Copia la vida del pizarrón a la vida del jugador.
             //Así, si perdiste vida en el combate, no la recuperás de golpe al cambiar de escena.
             #endregion
-        }
-        else
-        {
-            GameState.playerLife = life;
+        //}
+        //else
+        //{
+            //GameState.playerLife = life;
             #region Anotar la vida
             //Al revés que antes: copia la vida del jugador al pizarrón, para que quede anotada.
             #endregion
-        }
+        //}
     }
     public Vector2 GetTargetPoint() // NUEVO: calcula el punto de atrás en este mismo instante
     {

@@ -15,7 +15,7 @@ public class CombatResult : MonoBehaviour
     [SerializeField] private Player player;
     //Es el jugador. Lo arrastrás desde el Inspector. Sirve para sacarle vida al huir.
 
-    [SerializeField] private int fleeDamage = 5;
+    [SerializeField] private int fleeDamage = 1;
     //Es cuánta vida perdés por huir. int es un número entero, sin coma.
 
     private void Update()
