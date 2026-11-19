@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;              // NUEVO
 public class Player : MonoBehaviour
 #region Qué hace el script
 //Este script es el jugador (el corazoncito que se mueve y esquiva).
@@ -82,6 +83,11 @@ public class Player : MonoBehaviour
     //nuevo
     public bool inCombat = false;
     #endregion
+    [SerializeField] private SpriteRenderer spriteRenderer;   // NUEVO
+    [SerializeField] private float blinkTime = 0.1f;          // NUEVO
+    [SerializeField] private int blinkCount = 5;              // NUEVO
+    private Coroutine blinkRoutine;                           // NUEVO
+    private bool isInvincible = false;
 
     void Awake()                                   // NUEVO (método nuevo, va antes de Start)
     
@@ -224,6 +230,7 @@ public class Player : MonoBehaviour
         //Da true si lo encontró y false si no.
         #endregion
         {
+            if (isInvincible) return;
             Debug.Log($"perdiste -{damage.damage} puntos de vida");
             life -= damage.damage;
             #region Perder vida
@@ -235,6 +242,7 @@ public class Player : MonoBehaviour
             //Copia la vida nueva al pizarrón (GameState), así no se pierde al cambiar de escena.
             #endregion
             Debug.Log($"Ahora tienes {life} puntos de vida");
+            StartBlink();                                                     // NUEVO
         }
     }
     public void Heal(int amount)
@@ -284,5 +292,41 @@ public class Player : MonoBehaviour
         //Copia lo que le dijiste al cartelito isMoving.
         //Si le decís true, se puede mover. Si le decís false, queda quieto.
         #endregion
+    }
+    private void StartBlink()                              // NUEVO
+    {
+        isInvincible = true;     // NUEVO
+        if (blinkRoutine != null)                          // NUEVO
+        {                                                  // NUEVO
+            StopCoroutine(blinkRoutine);                   // NUEVO
+        }                                                  // NUEVO
+        blinkRoutine = StartCoroutine(Blink());            // NUEVO
+    }                                                      // NUEVO
+
+    private IEnumerator Blink()                            // NUEVO
+    {                                                      // NUEVO
+        for (int i = 0; i < blinkCount; i++)               // NUEVO
+        {                                                  // NUEVO
+            spriteRenderer.enabled = false;                // NUEVO
+            yield return new WaitForSeconds(blinkTime);    // NUEVO
+            spriteRenderer.enabled = true;                 // NUEVO
+            yield return new WaitForSeconds(blinkTime);    // NUEVO
+        }
+        isInvincible = false;     // NUEVO
+        blinkRoutine = null;                               // NUEVO
+    }                                                      // NUEVO
+
+    private void OnDisable()                               // NUEVO
+    {                                                      // NUEVO
+        if (blinkRoutine != null)                          // NUEVO: ¿había un parpadeo andando?
+        {                                                  // NUEVO
+            StopCoroutine(blinkRoutine);                   // NUEVO: cortalo
+            blinkRoutine = null;                           // NUEVO
+        }                                                  // NUEVO
+        isInvincible = false;                              // NUEVO: limpiá la cajita
+        if (spriteRenderer != null)                        // NUEVO: por si el sprite ya no existe (cambio de escena)
+        {                                                  // NUEVO
+            spriteRenderer.enabled = true;                 // NUEVO: que el corazón nunca quede invisible
+        }                                                  // NUEVO
     }
 }

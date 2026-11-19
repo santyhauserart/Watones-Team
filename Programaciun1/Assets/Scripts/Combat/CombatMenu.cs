@@ -39,27 +39,52 @@ public class CombatMenu : MonoBehaviour
     {
         transform.position = slots[currentSlot].position;
         //Pone la manito en su casilla.
+        if (currentButton != null)                                      // NUEVO: si la manito ya estaba sobre un botón...
+        {                                                               // NUEVO
+            currentButton.SetHighlight(true);                           // NUEVO: ...volvé a iluminarlo al empezar tu turno
+        }                                                               // NUEVO
     }
+    private void OnDisable()                                            // NUEVO (método entero)
+    {                                                                   // NUEVO
+        if (currentButton != null)                                      // NUEVO
+        {                                                               // NUEVO
+            currentButton.SetHighlight(false);                          // NUEVO: en el turno del enemigo, nada queda iluminado
+        }                                                               // NUEVO
+    }                                                                   // NUEVO
     private void OnTriggerEnter2D(Collider2D collision)
     //Crea la función OnTriggerEnter2D, que Unity llama cuando algo entra en la zona de la manito.
     {
-        if (collision.TryGetComponent<CombatButton>(out CombatButton combatButton))
-        //Pregunta: “¿lo que entró es un botón?”
-        {
-            currentButton = combatButton;
-            //Anota el botón que está tocando, así sabe cuál apretar con Z.
-        }
+        if (collision.TryGetComponent<CombatButton>(out CombatButton combatButton))   // IGUAL
+        {                                                               // IGUAL
+            currentButton = combatButton;                               // IGUAL
+            combatButton.SetHighlight(true);                            // NUEVO: ilumina el que tocaste
+        }                                                               // IGUAL
+        //if (collision.TryGetComponent<CombatButton>(out CombatButton combatButton))
+        ////Pregunta: “¿lo que entró es un botón?”
+        //{
+        //    currentButton = combatButton;
+        //    //Anota el botón que está tocando, así sabe cuál apretar con Z.
+        //}
     }
     private void OnTriggerExit2D(Collider2D collision)
     //Crea la función OnTriggerExit2D, que Unity llama cuando algo sale de la zona de la manito.
     {
-        if (collision.TryGetComponent<CombatButton>(out CombatButton combatButton) && combatButton == currentButton)
-        //Pregunta: “¿lo que salió es un botón, y además es el que yo tenía anotado?”
-        //Sirve para no olvidarse de un botón nuevo solo porque salió uno viejo.
-        {
-            currentButton = null;
-            //Se olvida del botón. null significa “nada”.
-        }
+        if (collision.TryGetComponent<CombatButton>(out CombatButton combatButton))   // CAMBIADO: saqué "&& combatButton == currentButton" de acá
+        {                                                               // IGUAL
+            combatButton.SetHighlight(false);                           // NUEVO: apaga siempre el que salió
+            if (combatButton == currentButton)                          // NUEVO: la pregunta que sacamos de arriba, ahora acá adentro
+            {                                                           // NUEVO
+                currentButton = null;                                   // IGUAL (movida adentro del if nuevo)
+            }                                                           // NUEVO
+        }                                                               // IGUAL
+        //if (collision.TryGetComponent<CombatButton>(out CombatButton combatButton) && combatButton == currentButton)
+        ////Pregunta: “¿lo que salió es un botón, y además es el que yo tenía anotado?”
+        ////Sirve para no olvidarse de un botón nuevo solo porque salió uno viejo.
+        //{
+        //    currentButton = null;
+        //    //Se olvida del botón. null significa “nada”.
+        //    combatButton.SetHighlight(true);
+        //}
     }
     private void Update()
     {
