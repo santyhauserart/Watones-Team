@@ -17,7 +17,7 @@ public class CombatResult : MonoBehaviour
 
     [SerializeField] private int fleeDamage = 1;
     //Es cuánta vida perdés por huir. int es un número entero, sin coma.
-
+    [SerializeField] private AudioClip fleeSound;
     private void Update()
     {
         //Esto es solo para testear (despues borrarlo)
@@ -33,6 +33,7 @@ public class CombatResult : MonoBehaviour
     public void Win()
     {
         if (SceneFader.IsBusy) return;
+        SfxPlayer.Play(fleeSound);
         foreach (int id in GameState.encounterGuards)
         //Es recorrer la libretita de los guardias del combate: agarra los números de a uno, y lo de adentro se hace con cada uno.
         {

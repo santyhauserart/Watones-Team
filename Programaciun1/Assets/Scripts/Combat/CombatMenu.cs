@@ -33,6 +33,7 @@ public class CombatMenu : MonoBehaviour
     [SerializeField] private int healAmount = 3;
     //Es cuánta vida cura una poción. Ahora vale 3.
 
+    [SerializeField] private AudioClip attackSound;
     private void OnEnable()
     //Crea la función OnEnable, una función especial de Unity que se ejecuta cada vez que el script se enciende
     //(o sea, cada vez que empieza el turno del jugador).
@@ -131,7 +132,7 @@ public class CombatMenu : MonoBehaviour
             {
                 int damage = Random.Range(minDamage, maxDamage + 1);
                 //Tira un dado para ver cuánto daño hacés.
-
+                SfxPlayer.Play(attackSound);
                 enemyCombat.life -= damage;
                 //Le saca vida al enemigo, tanta como salió en el dado.
 

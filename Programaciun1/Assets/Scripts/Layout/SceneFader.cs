@@ -15,7 +15,8 @@ public class SceneFader : MonoBehaviour
 
     public static void Load(string sceneName)                   // NUEVO: la orden que llaman los otros scripts
     {                                                           // NUEVO
-        if (isLoading) return;                                  // NUEVO: si ya está cambiando, ignorá la orden
+        if (isLoading) return;
+        MusicPlayer.FadeOut(fadeTime);// NUEVO: si ya está cambiando, ignorá la orden
         if (instance == null)                                   // NUEVO: ¿todavía no existe el telón?
         {                                                       // NUEVO
             GameObject faderObject = new GameObject("SceneFader");               // NUEVO: creá un objeto vacío

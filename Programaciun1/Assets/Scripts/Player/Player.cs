@@ -88,7 +88,8 @@ public class Player : MonoBehaviour
     [SerializeField] private int blinkCount = 5;              // NUEVO
     private Coroutine blinkRoutine;                           // NUEVO
     private bool isInvincible = false;
-
+    [SerializeField] private AudioClip hurtSound;
+    [SerializeField] private AudioClip healSound;
     void Awake()                                   // NUEVO (método nuevo, va antes de Start)
     
     {
@@ -239,6 +240,7 @@ public class Player : MonoBehaviour
             #endregion
 
             GameState.playerLife = life;
+            SfxPlayer.Play(hurtSound);
             #region Anotar la vida nueva
             //Copia la vida nueva al pizarrón (GameState), así no se pierde al cambiar de escena.
             #endregion
@@ -262,6 +264,7 @@ public class Player : MonoBehaviour
         //Es como un vaso: si querés echar más agua de la que entra, se queda lleno y no se desborda.
         #endregion
         GameState.playerLife = life;
+        SfxPlayer.Play(healSound);
         #region Anotar la vida nueva
         //Copia la vida nueva al pizarrón (GameState).
         #endregion

@@ -5910,6 +5910,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &379373185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 379373187}
+  - component: {fileID: 379373186}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &379373186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379373185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0f0f4cf941214438a348dfed9a7480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 8300000, guid: ea62d4807fe0b1f4e86b1e092a0e99f0, type: 3}
+  volume: 0.5
+  resumeWhereItLeft: 1
+  fadeSeconds: 0.5
+--- !u!4 &379373187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379373185}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.06719333, y: -0.6645346, z: 0.026374403}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &384168089
 GameObject:
   m_ObjectHideFlags: 0
@@ -17233,6 +17281,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1347989439}
   blinkTime: 0.1
   blinkCount: 5
+  hurtSound: {fileID: 8300000, guid: 1dd3218b278053242bc7ab4a7c2a32f7, type: 3}
+  healSound: {fileID: 8300000, guid: fdbd26a9447b4084daceb71a0eef6229, type: 3}
 --- !u!114 &1347989441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17419,7 +17469,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -23876,3 +23926,4 @@ SceneRoots:
   - {fileID: 253425516}
   - {fileID: 1482481069}
   - {fileID: 2047681951}
+  - {fileID: 379373187}
