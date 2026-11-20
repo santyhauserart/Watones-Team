@@ -57,6 +57,7 @@ public class EnemyPatrol : MonoBehaviour
     //Tiene que estar escrito igual que la escena, y la escena tiene que estar en Build Profiles (Build Settings).
     #endregion
 
+    [SerializeField] private int attackPattern = 0;
     private void Start()
     {
         Debug.Log(guardId + " / " + GameState.defeatedGuards.Contains(guardId));
@@ -138,6 +139,11 @@ public class EnemyPatrol : MonoBehaviour
                 #region Congelar al jugador
                 //Congela al jugador para que no se escape mientras carga el combate.
                 #endregion
+
+                if (GameState.encounterGuards.Count == 0)                        // NUEVO: ¿todavía no anotaron a nadie?
+                {                                                                // NUEVO
+                    GameState.attackPattern = attackPattern;                     // NUEVO: el primer guardia que te agarra decide el ataque
+                }                                                                // NUEVO
                 if (!GameState.encounterGuards.Contains(guardId))
                 #region ¿Falta anotarlo?
                 //Pregunta: "¿este guardia NO está ya anotado en la libretita del combate?".

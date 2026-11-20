@@ -5165,8 +5165,8 @@ Transform:
   m_GameObject: {fileID: 290159227}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.48, y: 6.49, z: 0.015195837}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 13.34, y: 5.72, z: 0.015195837}
+  m_LocalScale: {x: 0.2487, y: 0.2487, z: 0.2487}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 665967498}
@@ -5938,7 +5938,7 @@ Transform:
   m_GameObject: {fileID: 384168089}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.52, y: -2.07, z: -0.01870233}
+  m_LocalPosition: {x: -1.21, y: -2.07, z: -0.01870233}
   m_LocalScale: {x: 0.21768218, y: 0.21768218, z: 0.21768218}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6217,8 +6217,8 @@ Transform:
   m_GameObject: {fileID: 388385428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.68, y: 6.43, z: 0.025741914}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 11.57, y: 5.56, z: 0.025741914}
+  m_LocalScale: {x: 0.12596004, y: 0.12596004, z: 0.12596004}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 296172488}
@@ -6257,8 +6257,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 2
+  m_Offset: {x: -0.045012943, y: 0}
+  m_Radius: 11.947223
 --- !u!114 &388385431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6282,6 +6282,7 @@ MonoBehaviour:
   encounterDistance: 1
   guardId: 2
   combatScene: CombatScene
+  attackPattern: 1
 --- !u!212 &388385432
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6326,7 +6327,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -4037684215640206037, guid: 253aa96db6aa21741a98eab660ca4bb5, type: 3}
   m_Color: {r: 1, g: 0.6833637, b: 0.3160377, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6452,7 +6453,7 @@ Transform:
   m_GameObject: {fileID: 492352617}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.49, y: 0.2, z: -0.01870233}
+  m_LocalPosition: {x: -1.28, y: 0.2, z: -0.01870233}
   m_LocalScale: {x: 0.212389, y: 0.212389, z: 0.212389}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11173,7 +11174,7 @@ Transform:
   m_GameObject: {fileID: 953769915}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.08, y: 0.77, z: 0.0262}
+  m_LocalPosition: {x: -8.44, y: -0.1, z: 0.0262}
   m_LocalScale: {x: 0.13926522, y: 0.13926522, z: 0.13926522}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11408,6 +11409,7 @@ MonoBehaviour:
   encounterDistance: 0.3
   guardId: 1
   combatScene: CombatScene
+  attackPattern: 0
 --- !u!212 &954456045
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14514,7 +14516,7 @@ Transform:
   m_GameObject: {fileID: 1135887308}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.52, y: 2.12, z: -0.022209859}
+  m_LocalPosition: {x: 10.68, y: 7.85, z: -0.022209859}
   m_LocalScale: {x: 0.14263, y: 0.14263, z: 0.14263}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17228,7 +17230,7 @@ MonoBehaviour:
   separation: 0.8
   maxLife: 5
   inCombat: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 1347989439}
   blinkTime: 0.1
   blinkCount: 5
 --- !u!114 &1347989441
@@ -17260,6 +17262,7 @@ GameObject:
   - component: {fileID: 1356976094}
   - component: {fileID: 1356976093}
   - component: {fileID: 1356976092}
+  - component: {fileID: 1356976095}
   m_Layer: 0
   m_Name: SpriteEnemy
   m_TagString: Untagged
@@ -17276,8 +17279,8 @@ Transform:
   m_GameObject: {fileID: 1356976090}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.48, y: 2.27, z: 0.004043405}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.7333, y: -3.1433, z: 0.004043405}
+  m_LocalScale: {x: 0.14146902, y: 0.13642628, z: 0.4543}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 580548749}
@@ -17299,6 +17302,9 @@ MonoBehaviour:
   fireRate: 1
   maxBullets: 3
   degrees: 30
+  bulletSize: 0.7
+  audioSource: {fileID: 1356976095}
+  shootSound: {fileID: 8300000, guid: 035913b50360dcc4cbd337e8e7e43f34, type: 3}
 --- !u!61 &1356976093
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17333,17 +17339,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.12955827, y: -0.72344136}
+  m_Offset: {x: -0.08670044, y: -2.754034}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.28866667}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.57, y: 4.19}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.578258, y: 5.9146037}
+  m_Size: {x: 17.17667, y: 31.65953}
   m_EdgeRadius: 0
 --- !u!212 &1356976094
 SpriteRenderer:
@@ -17389,7 +17395,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Sprite: {fileID: -4037684215640206037, guid: 253aa96db6aa21741a98eab660ca4bb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -17400,6 +17406,103 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &1356976095
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356976090}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1382664945
 GameObject:
   m_ObjectHideFlags: 0
@@ -17600,8 +17703,8 @@ Transform:
   m_GameObject: {fileID: 1425597639}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.71, y: 7.46, z: 0.015195837}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 9.89, y: 5.76, z: 0.015195837}
+  m_LocalScale: {x: 0.22973904, y: 0.22973904, z: 0.22973904}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 665967498}
@@ -17978,7 +18081,7 @@ Transform:
   m_GameObject: {fileID: 1473760548}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.15, y: 1.5438, z: 0.0262}
+  m_LocalPosition: {x: -8.68, y: -0.67, z: 0.0262}
   m_LocalScale: {x: 0.17988889, y: 0.17988889, z: 0.17988889}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22931,7 +23034,7 @@ GameObject:
   - component: {fileID: 2081648268}
   - component: {fileID: 2081648271}
   - component: {fileID: 2081648272}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: NPCSprite
   m_TagString: NPC
   m_Icon: {fileID: 0}

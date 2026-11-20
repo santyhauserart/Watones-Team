@@ -34,6 +34,9 @@ public static class GameState
     public static int playerLife = -1;
     //Es la vida del jugador anotada en el pizarrón.
 
+    public static int attackPattern = 0;                             // NUEVO: número de ficha de ataque del combate que viene (0 = la primera)
+                                                                     //Es la notita que viaja del mapa al combate: el guardia que te agarra anota acá qué ataque usa.   // NUEVO
+
     public static Dictionary<int, Vector2> guardPositions = new Dictionary<int, Vector2>();
     //Es el cuaderno de posiciones de los guardias. Cada renglón dice: número de guardia → dónde estaba parado.
 

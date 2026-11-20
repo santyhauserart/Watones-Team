@@ -28,6 +28,11 @@ public class Enemy : MonoBehaviour
     #region Reloj de la próxima tanda
     //Es la hora a la que le toca disparar de nuevo. Es como un reloj despertador.
     #endregion
+
+    [SerializeField] private float bulletSize = 1f;
+
+    [SerializeField] private AudioSource audioSource;              // NUEVO: el parlante (se arrastra en el Inspector)
+    [SerializeField] private AudioClip shootSound;
     private void OnTriggerStay2D(Collider2D collision)
     #region Algo está en la zona
     //Unity llama a esta función todo el tiempo, mientras algo se queda dentro de la zona del enemigo.
@@ -53,6 +58,10 @@ public class Enemy : MonoBehaviour
     //Es la función que dispara una tanda de balas.
     #endregion
     {
+        if (audioSource != null && shootSound != null)              // NUEVO: si falta el parlante o el sonido, no hace nada ni da error
+        {                                                           // NUEVO
+            audioSource.PlayOneShot(shootSound);                    // NUEVO: suena UNA vez por tanda, no por cada bala
+        }                                                           // NUEVO
         Vector2 playerDirection = (player.transform.position - transform.position).normalized;
         #region Flechita hacia el jugador
         //Calcula la flechita que va del enemigo al jugador, para saber hacia dónde apuntar.
@@ -79,6 +88,7 @@ public class Enemy : MonoBehaviour
             #region Fabricar una bala
             //Fabrica una bala nueva copiando el molde y la guarda en una cajita llamada newBullet.
             #endregion
+            newBullet.transform.localScale = bulletPrefab.transform.localScale * bulletSize;
             newBullet.GetComponent<BulletEnemy>().SetDirection(turned);
             #region Decirle hacia dónde ir
             //Le dice a la bala hacia dónde viajar.
