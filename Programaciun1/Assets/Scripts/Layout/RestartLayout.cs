@@ -17,7 +17,8 @@ public class RestartLayout : MonoBehaviour
     //RestartLevel: es el nombre ("reiniciar nivel"). (): no necesita que le des nada.
     #endregion
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneFader.Load(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         #region Volver a cargar la escena
         //Carga otra vez la escena en la que estás ahora, así que todo se arma de nuevo desde el principio.
         //SceneManager.LoadScene(...): "cargá esta escena". Se le puede dar el nombre de la escena o su número.

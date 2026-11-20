@@ -166,7 +166,7 @@ public class EnemyPatrol : MonoBehaviour
                 //Anota a qué parada iba este guardia, en la página con su número.
                 #endregion
                 SceneFader.Load(combatScene);
-                SceneManager.LoadScene(combatScene);
+                //SceneManager.LoadScene(combatScene);
                 #region Ir al combate
                 //Te lleva a la escena del combate.
                 #endregion
