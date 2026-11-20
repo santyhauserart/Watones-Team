@@ -138,11 +138,12 @@ public class Player : MonoBehaviour
         #region Leer los controles
         //Mira los controles y anota hacia dónde está empujando el jugador.
         #endregion
-        if (life <= 0 && !inCombat)
+        if (life <= 0 && !inCombat && !SceneFader.IsBusy)
         #region ¿Se quedó sin vida?
         //Pregunta: "¿la vida llegó a cero o menos?".
         #endregion
         {
+            SetCanMove(false);
             DeathPlayer();
             #region Morir
             //Llama a la función que hace morir al jugador (más abajo).

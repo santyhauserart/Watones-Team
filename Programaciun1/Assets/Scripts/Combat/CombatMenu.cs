@@ -88,7 +88,8 @@ public class CombatMenu : MonoBehaviour
     }
     private void Update()
     {
-            //int column = currentSlot % columns;
+        if (SceneFader.IsBusy) return;
+        //int column = currentSlot % columns;
         //Calcula en qué columna está la manito.
 
         if (Input.GetKeyDown(KeyCode.RightArrow) && currentSlot < slots.Length - 1 /*&& column != 1*/)

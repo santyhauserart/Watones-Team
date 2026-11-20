@@ -32,6 +32,7 @@ public class CombatResult : MonoBehaviour
     }
     public void Win()
     {
+        if (SceneFader.IsBusy) return;
         foreach (int id in GameState.encounterGuards)
         //Es recorrer la libretita de los guardias del combate: agarra los números de a uno, y lo de adentro se hace con cada uno.
         {
@@ -44,13 +45,15 @@ public class CombatResult : MonoBehaviour
         }
         GameState.encounterGuards.Clear();
         //Borra la libretita del combate, porque ese combate ya terminó.
-
-        SceneManager.LoadScene(prototypeScene);
+        SceneFader.Load(prototypeScene);
+        //SceneManager.LoadScene(prototypeScene);
         //Te lleva de vuelta al mapa. Carga la escena cuyo nombre está en prototypeScene.
     }
     public void Lose()
+
     //Crea la función Lose (“perder el combate”). Es public porque Flee también la llama.
     {
+        if (SceneFader.IsBusy) return;
         GameState.encounterGuards.Clear();
         //Borra la libretita del combate, porque el combate terminó.
 
@@ -80,13 +83,14 @@ public class CombatResult : MonoBehaviour
         {
             GameState.currentRoom = "";
         }
-
-        SceneManager.LoadScene(prototypeScene);
+        SceneFader.Load(prototypeScene);
+        //SceneManager.LoadScene(prototypeScene);
         //Te lleva de vuelta al mapa.
     }
     public void Flee()
     //Crea la función Flee (“huir del combate”). La llama CombatMenu cuando elegís el botón Flee.
     {
+        if (SceneFader.IsBusy) return;
         player.life -= fleeDamage;
         //Te saca vida por huir.
 
@@ -107,8 +111,8 @@ public class CombatResult : MonoBehaviour
 
         GameState.encounterImmuneUntil = Time.time + fleeImmunitySeconds;
         //Hace dormir al enemigo. Anota la hora hasta la que no puede atraparte.
-
-        SceneManager.LoadScene(prototypeScene);
+        SceneFader.Load(prototypeScene);
+        //SceneManager.LoadScene(prototypeScene);
         //Te lleva de vuelta al mapa.
     }
 }
