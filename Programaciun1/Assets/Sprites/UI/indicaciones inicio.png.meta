@@ -1,0 +1,5629 @@
+fileFormatVersion: 2
+guid: db0569f8f47067641b85682dda72736d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2859039086060033302
+    second: indicaciones inicio_0
+  - first:
+      213: -5367294582076132185
+    second: indicaciones inicio_1
+  - first:
+      213: 1996488996160968851
+    second: indicaciones inicio_2
+  - first:
+      213: -5343219648757273215
+    second: indicaciones inicio_3
+  - first:
+      213: -3602492390252721460
+    second: indicaciones inicio_4
+  - first:
+      213: 6853729179929744826
+    second: indicaciones inicio_5
+  - first:
+      213: -4960235486017645408
+    second: indicaciones inicio_6
+  - first:
+      213: 1839926699980176655
+    second: indicaciones inicio_7
+  - first:
+      213: 2121162789820822636
+    second: indicaciones inicio_8
+  - first:
+      213: -3543618762048627969
+    second: indicaciones inicio_9
+  - first:
+      213: 5791252909713802196
+    second: indicaciones inicio_10
+  - first:
+      213: -281842335472892488
+    second: indicaciones inicio_11
+  - first:
+      213: 3957322691088690049
+    second: indicaciones inicio_12
+  - first:
+      213: -5559056345677230145
+    second: indicaciones inicio_13
+  - first:
+      213: -2558965289848603724
+    second: indicaciones inicio_14
+  - first:
+      213: 365281580991772924
+    second: indicaciones inicio_15
+  - first:
+      213: -4635715905537413042
+    second: indicaciones inicio_16
+  - first:
+      213: -7998228903954756542
+    second: indicaciones inicio_17
+  - first:
+      213: -6039902619633187443
+    second: indicaciones inicio_18
+  - first:
+      213: -3472460195356522919
+    second: indicaciones inicio_19
+  - first:
+      213: 1567357422295479020
+    second: indicaciones inicio_20
+  - first:
+      213: 5099963189218714499
+    second: indicaciones inicio_21
+  - first:
+      213: -4370386731937458695
+    second: indicaciones inicio_22
+  - first:
+      213: -4722647696993516683
+    second: indicaciones inicio_23
+  - first:
+      213: -3334647361748710822
+    second: indicaciones inicio_24
+  - first:
+      213: 3410165461763599261
+    second: indicaciones inicio_25
+  - first:
+      213: -4520670836788062045
+    second: indicaciones inicio_26
+  - first:
+      213: 7199224622730864424
+    second: indicaciones inicio_27
+  - first:
+      213: 3258452775867160270
+    second: indicaciones inicio_28
+  - first:
+      213: -406817446181947245
+    second: indicaciones inicio_29
+  - first:
+      213: -3985766775293319512
+    second: indicaciones inicio_30
+  - first:
+      213: -8380690040757965272
+    second: indicaciones inicio_31
+  - first:
+      213: -2849613257285440871
+    second: indicaciones inicio_32
+  - first:
+      213: -7186074966828663486
+    second: indicaciones inicio_33
+  - first:
+      213: -3740045049046502950
+    second: indicaciones inicio_34
+  - first:
+      213: -8028251675777411013
+    second: indicaciones inicio_35
+  - first:
+      213: -6977617241209895403
+    second: indicaciones inicio_36
+  - first:
+      213: -132373512313885563
+    second: indicaciones inicio_37
+  - first:
+      213: -7489270644012097638
+    second: indicaciones inicio_38
+  - first:
+      213: -1197907035305038978
+    second: indicaciones inicio_39
+  - first:
+      213: 1233937895528706646
+    second: indicaciones inicio_40
+  - first:
+      213: -373915865768957397
+    second: indicaciones inicio_41
+  - first:
+      213: -873806137520832530
+    second: indicaciones inicio_42
+  - first:
+      213: -7228534714005107761
+    second: indicaciones inicio_43
+  - first:
+      213: -2388505855964566822
+    second: indicaciones inicio_44
+  - first:
+      213: -6196852437073476155
+    second: indicaciones inicio_45
+  - first:
+      213: 1587232570735978148
+    second: indicaciones inicio_46
+  - first:
+      213: 6769799057759217828
+    second: indicaciones inicio_47
+  - first:
+      213: 831726690225240899
+    second: indicaciones inicio_48
+  - first:
+      213: -2651617885931388614
+    second: indicaciones inicio_49
+  - first:
+      213: 7150664525486333395
+    second: indicaciones inicio_50
+  - first:
+      213: 9022288052490448378
+    second: indicaciones inicio_51
+  - first:
+      213: 4701064889657826299
+    second: indicaciones inicio_52
+  - first:
+      213: -7113475224570511521
+    second: indicaciones inicio_53
+  - first:
+      213: -157936071378955069
+    second: indicaciones inicio_54
+  - first:
+      213: -4229580209900167295
+    second: indicaciones inicio_55
+  - first:
+      213: 7182591630098942705
+    second: indicaciones inicio_56
+  - first:
+      213: -4402820475882736492
+    second: indicaciones inicio_57
+  - first:
+      213: -3915460919954979339
+    second: indicaciones inicio_58
+  - first:
+      213: 6288590742785993836
+    second: indicaciones inicio_59
+  - first:
+      213: 5348458313071282991
+    second: indicaciones inicio_60
+  - first:
+      213: -4693405280029145943
+    second: indicaciones inicio_61
+  - first:
+      213: 7682966080499458231
+    second: indicaciones inicio_62
+  - first:
+      213: 980062079089249667
+    second: indicaciones inicio_63
+  - first:
+      213: -2004914559238721267
+    second: indicaciones inicio_64
+  - first:
+      213: -6821200680339995294
+    second: indicaciones inicio_65
+  - first:
+      213: 3912628342841668126
+    second: indicaciones inicio_66
+  - first:
+      213: -1971403724533703703
+    second: indicaciones inicio_67
+  - first:
+      213: -1459539174120712291
+    second: indicaciones inicio_68
+  - first:
+      213: 2734985981889350278
+    second: indicaciones inicio_69
+  - first:
+      213: -2391893869796263473
+    second: indicaciones inicio_70
+  - first:
+      213: -3233011831804692810
+    second: indicaciones inicio_71
+  - first:
+      213: 8082995911074018293
+    second: indicaciones inicio_72
+  - first:
+      213: 615595608634616336
+    second: indicaciones inicio_73
+  - first:
+      213: -2017742191396652213
+    second: indicaciones inicio_74
+  - first:
+      213: 4793371106077064257
+    second: indicaciones inicio_75
+  - first:
+      213: -8841167647679442882
+    second: indicaciones inicio_76
+  - first:
+      213: -4113287425613650011
+    second: indicaciones inicio_77
+  - first:
+      213: -9041479441878874946
+    second: indicaciones inicio_78
+  - first:
+      213: -1090959389367273346
+    second: indicaciones inicio_79
+  - first:
+      213: 673060326785888504
+    second: indicaciones inicio_80
+  - first:
+      213: 7291763804705832348
+    second: indicaciones inicio_81
+  - first:
+      213: -3099481466913868501
+    second: indicaciones inicio_82
+  - first:
+      213: 8198039498132288950
+    second: indicaciones inicio_83
+  - first:
+      213: -2402311373357852823
+    second: indicaciones inicio_84
+  - first:
+      213: -2781881633888547871
+    second: indicaciones inicio_85
+  - first:
+      213: -6466701267764613857
+    second: indicaciones inicio_86
+  - first:
+      213: -8794425276578365912
+    second: indicaciones inicio_87
+  - first:
+      213: 8777410504615546080
+    second: indicaciones inicio_88
+  - first:
+      213: -3292909032564721362
+    second: indicaciones inicio_89
+  - first:
+      213: -5336564469418923334
+    second: indicaciones inicio_90
+  - first:
+      213: 8247966965390168182
+    second: indicaciones inicio_91
+  - first:
+      213: 906689879749415196
+    second: indicaciones inicio_92
+  - first:
+      213: 9115303856957724300
+    second: indicaciones inicio_93
+  - first:
+      213: 7706824226036170691
+    second: indicaciones inicio_94
+  - first:
+      213: -5236030804872581748
+    second: indicaciones inicio_95
+  - first:
+      213: -2240304075828087810
+    second: indicaciones inicio_96
+  - first:
+      213: -8511777192916643998
+    second: indicaciones inicio_97
+  - first:
+      213: -6374368069487770112
+    second: indicaciones inicio_98
+  - first:
+      213: -7320135650032047150
+    second: indicaciones inicio_99
+  - first:
+      213: 6264776520839072525
+    second: indicaciones inicio_100
+  - first:
+      213: -8740676401868047789
+    second: indicaciones inicio_101
+  - first:
+      213: -5994480571463603922
+    second: indicaciones inicio_102
+  - first:
+      213: 7209643646056024263
+    second: indicaciones inicio_103
+  - first:
+      213: 4820859920536088041
+    second: indicaciones inicio_104
+  - first:
+      213: 2319459067782684105
+    second: indicaciones inicio_105
+  - first:
+      213: 6242430311148186043
+    second: indicaciones inicio_106
+  - first:
+      213: 2816243434963438905
+    second: indicaciones inicio_107
+  - first:
+      213: 8611106618281978465
+    second: indicaciones inicio_108
+  - first:
+      213: -4296818417679770118
+    second: indicaciones inicio_109
+  - first:
+      213: 3823257343971564056
+    second: indicaciones inicio_110
+  - first:
+      213: -1396890877918345889
+    second: indicaciones inicio_111
+  - first:
+      213: 4720276811747887200
+    second: indicaciones inicio_112
+  - first:
+      213: -1354678699843534520
+    second: indicaciones inicio_113
+  - first:
+      213: 3888826769253633545
+    second: indicaciones inicio_114
+  - first:
+      213: 3417826887766986422
+    second: indicaciones inicio_115
+  - first:
+      213: 8207262220808454019
+    second: indicaciones inicio_116
+  - first:
+      213: -6920313449974857885
+    second: indicaciones inicio_117
+  - first:
+      213: 8421503673313504503
+    second: indicaciones inicio_118
+  - first:
+      213: 749792470921307386
+    second: indicaciones inicio_119
+  - first:
+      213: 1190318079276493010
+    second: indicaciones inicio_120
+  - first:
+      213: 5604015996143261567
+    second: indicaciones inicio_121
+  - first:
+      213: 3338950608756927149
+    second: indicaciones inicio_122
+  - first:
+      213: -2408368099459754729
+    second: indicaciones inicio_123
+  - first:
+      213: -1254575781069562443
+    second: indicaciones inicio_124
+  - first:
+      213: 667601288564622364
+    second: indicaciones inicio_125
+  - first:
+      213: 9134981570554721008
+    second: indicaciones inicio_126
+  - first:
+      213: 6169026800300135713
+    second: indicaciones inicio_127
+  - first:
+      213: 5452211915859628825
+    second: indicaciones inicio_128
+  - first:
+      213: -4291555414695505301
+    second: indicaciones inicio_129
+  - first:
+      213: 6739253586862920914
+    second: indicaciones inicio_130
+  - first:
+      213: -2021912791999499861
+    second: indicaciones inicio_131
+  - first:
+      213: 7302424342831958994
+    second: indicaciones inicio_132
+  - first:
+      213: -7450508919406194909
+    second: indicaciones inicio_133
+  - first:
+      213: -3742038407232187282
+    second: indicaciones inicio_134
+  - first:
+      213: 5392733714620590340
+    second: indicaciones inicio_135
+  - first:
+      213: 1713308926634990928
+    second: indicaciones inicio_136
+  - first:
+      213: -2899222550310139858
+    second: indicaciones inicio_137
+  - first:
+      213: -3421650298540795149
+    second: indicaciones inicio_138
+  - first:
+      213: -4032378216031517212
+    second: indicaciones inicio_139
+  - first:
+      213: 2270248200121370926
+    second: indicaciones inicio_140
+  - first:
+      213: 5824561061424396966
+    second: indicaciones inicio_141
+  - first:
+      213: -5100451058430952321
+    second: indicaciones inicio_142
+  - first:
+      213: 374809861229522153
+    second: indicaciones inicio_143
+  - first:
+      213: -7304936426578708933
+    second: indicaciones inicio_144
+  - first:
+      213: 789823474345502028
+    second: indicaciones inicio_145
+  - first:
+      213: -3240697922023406549
+    second: indicaciones inicio_146
+  - first:
+      213: -7309599521932073195
+    second: indicaciones inicio_147
+  - first:
+      213: 1014091380974538269
+    second: indicaciones inicio_148
+  - first:
+      213: 6173207938203486322
+    second: indicaciones inicio_149
+  - first:
+      213: -2711376530268842097
+    second: indicaciones inicio_150
+  - first:
+      213: -6099219662054676971
+    second: indicaciones inicio_151
+  - first:
+      213: 8782310381235683606
+    second: indicaciones inicio_152
+  - first:
+      213: -6730859234592519775
+    second: indicaciones inicio_153
+  - first:
+      213: 8759016233671234331
+    second: indicaciones inicio_154
+  - first:
+      213: -5455284886974085887
+    second: indicaciones inicio_155
+  - first:
+      213: -4483648113076636936
+    second: indicaciones inicio_156
+  - first:
+      213: -2924202109421882551
+    second: indicaciones inicio_157
+  - first:
+      213: -8532202015264848150
+    second: indicaciones inicio_158
+  - first:
+      213: 6440370738264571730
+    second: indicaciones inicio_159
+  - first:
+      213: 6349790202557563874
+    second: indicaciones inicio_160
+  - first:
+      213: 2607586034849430308
+    second: indicaciones inicio_161
+  - first:
+      213: -7087087103893513046
+    second: indicaciones inicio_162
+  - first:
+      213: -479871678750695633
+    second: indicaciones inicio_163
+  - first:
+      213: -698648787279196791
+    second: indicaciones inicio_164
+  - first:
+      213: 2138526984400751215
+    second: indicaciones inicio_165
+  - first:
+      213: -4303664880751243830
+    second: indicaciones inicio_166
+  - first:
+      213: -4178008790364075539
+    second: indicaciones inicio_167
+  - first:
+      213: 1397815091366515629
+    second: indicaciones inicio_168
+  - first:
+      213: 2669521403725499694
+    second: indicaciones inicio_169
+  - first:
+      213: 4245602889033719783
+    second: indicaciones inicio_170
+  - first:
+      213: 8142744671909150138
+    second: indicaciones inicio_171
+  - first:
+      213: 8407953950515958915
+    second: indicaciones inicio_172
+  - first:
+      213: -4766622278898973940
+    second: indicaciones inicio_173
+  - first:
+      213: -5504375959842800314
+    second: indicaciones inicio_174
+  - first:
+      213: -888752499791068365
+    second: indicaciones inicio_175
+  - first:
+      213: 5148315547492703716
+    second: indicaciones inicio_176
+  - first:
+      213: -1007637820849894855
+    second: indicaciones inicio_177
+  - first:
+      213: -6613930800379032114
+    second: indicaciones inicio_178
+  - first:
+      213: -6233902615162397907
+    second: indicaciones inicio_179
+  - first:
+      213: -5468094145356376028
+    second: indicaciones inicio_180
+  - first:
+      213: 659512105097901330
+    second: indicaciones inicio_181
+  - first:
+      213: -7471409256767605393
+    second: indicaciones inicio_182
+  - first:
+      213: 6626234329898307363
+    second: indicaciones inicio_183
+  - first:
+      213: 1904849186649704606
+    second: indicaciones inicio_184
+  - first:
+      213: -6876848696081684756
+    second: indicaciones inicio_185
+  - first:
+      213: 5699630680637800139
+    second: indicaciones inicio_186
+  - first:
+      213: -6246117246965294228
+    second: indicaciones inicio_187
+  - first:
+      213: 2751388596457941922
+    second: indicaciones inicio_188
+  - first:
+      213: -6286507334465743068
+    second: indicaciones inicio_189
+  - first:
+      213: 1254906336728632665
+    second: indicaciones inicio_190
+  - first:
+      213: -7468320177572588486
+    second: indicaciones inicio_191
+  - first:
+      213: 7150081421621453766
+    second: indicaciones inicio_192
+  - first:
+      213: 8312658911497396360
+    second: indicaciones inicio_193
+  - first:
+      213: 1800073191417201727
+    second: indicaciones inicio_194
+  - first:
+      213: 9049260777099658845
+    second: indicaciones inicio_195
+  - first:
+      213: -8210579378665987335
+    second: indicaciones inicio_196
+  - first:
+      213: -2564223803863214832
+    second: indicaciones inicio_197
+  - first:
+      213: 1877133377827319008
+    second: indicaciones inicio_198
+  - first:
+      213: 3141924544940507187
+    second: indicaciones inicio_199
+  - first:
+      213: -7188506481120941832
+    second: indicaciones inicio_200
+  - first:
+      213: 2288268226561016603
+    second: indicaciones inicio_201
+  - first:
+      213: 9012387649478849130
+    second: indicaciones inicio_202
+  - first:
+      213: -6070872271861638689
+    second: indicaciones inicio_203
+  - first:
+      213: 725354250133154086
+    second: indicaciones inicio_204
+  - first:
+      213: -8826832161388623606
+    second: indicaciones inicio_205
+  - first:
+      213: -5675465499875800077
+    second: indicaciones inicio_206
+  - first:
+      213: -476442657545140497
+    second: indicaciones inicio_207
+  - first:
+      213: -6855277113733595176
+    second: indicaciones inicio_208
+  - first:
+      213: 973394004507878800
+    second: indicaciones inicio_209
+  - first:
+      213: 2776426780870584178
+    second: indicaciones inicio_210
+  - first:
+      213: 1963671632302408922
+    second: indicaciones inicio_211
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: indicaciones inicio_0
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1760
+        width: 102
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea2f6c5917a258d0800000000000000
+      internalID: -2859039086060033302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1794
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a43976c30a8385b0800000000000000
+      internalID: -5367294582076132185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_2
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1778
+        width: 61
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39896260a24f4bb10800000000000000
+      internalID: 1996488996160968851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1799
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d6feef90219d5b0800000000000000
+      internalID: -5343219648757273215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_4
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1777
+        width: 81
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca40f40240610ec0800000000000000
+      internalID: -3602492390252721460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_5
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1813
+        width: 18
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5117460665d1f50800000000000000
+      internalID: 6853729179929744826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_6
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1793
+        width: 53
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a491ad1b14b92bb0800000000000000
+      internalID: -4960235486017645408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_7
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1817
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d3315d59bb88910800000000000000
+      internalID: 1839926699980176655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_8
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1869
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64fb06a152ef6d10800000000000000
+      internalID: 2121162789820822636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_9
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1817
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa9ea4c28982dec0800000000000000
+      internalID: -3543618762048627969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_10
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1826
+        width: 22
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d340f786d9ae5050800000000000000
+      internalID: 5791252909713802196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_11
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1826
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5c87f93e1b61cf0800000000000000
+      internalID: -281842335472892488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_12
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1786
+        width: 52
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b2fef450c3be630800000000000000
+      internalID: 3957322691088690049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_13
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1836
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf078de4b34ad2b0800000000000000
+      internalID: -5559056345677230145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1848
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbf40a70aabc7cd0800000000000000
+      internalID: -2558965289848603724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1793
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8f10e99adb11500800000000000000
+      internalID: 365281580991772924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1788
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4070dae1f0aaafb0800000000000000
+      internalID: -4635715905537413042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_17
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1800
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cc3833035900190800000000000000
+      internalID: -7998228903954756542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_18
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1798
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8500d67194fd2ca0800000000000000
+      internalID: -6039902619633187443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_19
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1797
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9564717a9d75fcfc0800000000000000
+      internalID: -3472460195356522919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_20
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1805
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce27ef7754f50c510800000000000000
+      internalID: 1567357422295479020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_21
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1801
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38323f4ff75b6c640800000000000000
+      internalID: 5099963189218714499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_22
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1807
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f599cf2c644953c0800000000000000
+      internalID: -4370386731937458695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_23
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1802
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5738265f0f8c57eb0800000000000000
+      internalID: -4722647696993516683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_24
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1808
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a46c764e3f8b1d0800000000000000
+      internalID: -3334647361748710822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_25
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1802
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ba9bd6b67535f20800000000000000
+      internalID: 3410165461763599261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_26
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1811
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a897c253d95341c0800000000000000
+      internalID: -4520670836788062045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_27
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1795
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8276e18b6a8c8e360800000000000000
+      internalID: 7199224622730864424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_28
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1547
+        width: 123
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec692fe1989583d20800000000000000
+      internalID: 3258452775867160270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_29
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1465
+        width: 95
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398b4e720b1ba5af0800000000000000
+      internalID: -406817446181947245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_30
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1481
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a666114c36bfa8c0800000000000000
+      internalID: -3985766775293319512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1411
+        width: 141
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ea7fb8fcec1bb80800000000000000
+      internalID: -8380690040757965272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_32
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1436
+        width: 124
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ae14427d32478d0800000000000000
+      internalID: -2849613257285440871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_33
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1412
+        width: 119
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24db9d024eee54c90800000000000000
+      internalID: -7186074966828663486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_34
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1511
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1ff9fe7d0b81cc0800000000000000
+      internalID: -3740045049046502950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_35
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1469
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b385ad9e2abe59090800000000000000
+      internalID: -8028251675777411013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_36
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1479
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5160b0f86168a2f90800000000000000
+      internalID: -6977617241209895403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_37
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1522
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c2cdcedf6b92ef0800000000000000
+      internalID: -132373512313885563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_38
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1522
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fd5e47704c01890800000000000000
+      internalID: -7489270644012097638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_39
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1467
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ba3bee5ed206fe0800000000000000
+      internalID: -1197907035305038978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_40
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1476
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652b1e17af3df1110800000000000000
+      internalID: 1233937895528706646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_41
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1480
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a65fc40859fcaf0800000000000000
+      internalID: -373915865768957397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_42
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1465
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefb38292fd9fd3f0800000000000000
+      internalID: -873806137520832530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_43
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1480
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb452dd9f51fab90800000000000000
+      internalID: -7228534714005107761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_44
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1475
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaaa4f24925aded0800000000000000
+      internalID: -2388505855964566822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_45
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1478
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5c8b27a8b500aa0800000000000000
+      internalID: -6196852437073476155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_46
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1417
+        width: 114
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6e5a21d9bf60610800000000000000
+      internalID: 1587232570735978148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1175
+        width: 94
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a82386006823fd50800000000000000
+      internalID: 6769799057759217828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_48
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1170
+        width: 62
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b3611a403ea8b00800000000000000
+      internalID: 831726690225240899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_49
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1186
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31ccf4e49f833bd0800000000000000
+      internalID: -2651617885931388614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_50
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1250
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd999500834c3360800000000000000
+      internalID: 7150664525486333395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_51
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1182
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afda1fd7e2b953d70800000000000000
+      internalID: 9022288052490448378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_52
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1241
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb9d1e1c998d3140800000000000000
+      internalID: 4701064889657826299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_53
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1191
+        width: 56
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fbee8d8fbd74d90800000000000000
+      internalID: -7113475224570511521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_54
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1197
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c49c38daf5eecdf0800000000000000
+      internalID: -157936071378955069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_55
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1243
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fd0e755338d45c0800000000000000
+      internalID: -4229580209900167295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_56
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1207
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1facdb65801bda360800000000000000
+      internalID: 7182591630098942705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_57
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1198
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4947135ba1a06e2c0800000000000000
+      internalID: -4402820475882736492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_58
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1202
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5c82ec90d79a9c0800000000000000
+      internalID: -3915460919954979339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_59
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1189
+        width: 45
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ca19156ff854750800000000000000
+      internalID: 6288590742785993836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_60
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1197
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b49969f7a893a40800000000000000
+      internalID: 5348458313071282991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_61
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1203
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a48be8b3ccaddeb0800000000000000
+      internalID: -4693405280029145943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_62
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1200
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0ab81b1f06f9a60800000000000000
+      internalID: 7682966080499458231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_63
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1212
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d02f1b441e99d00800000000000000
+      internalID: 980062079089249667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_64
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1210
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d013193b4dc1d24e0800000000000000
+      internalID: -2004914559238721267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_65
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1205
+        width: 50
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2658eaa1f1a3651a0800000000000000
+      internalID: -6821200680339995294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_66
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1205
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12f3317fb27c4630800000000000000
+      internalID: 3912628342841668126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_67
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1200
+        width: 90
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb594ae1ca24a4e0800000000000000
+      internalID: -1971403724533703703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_68
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1210
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9794c6aadcaebbe0800000000000000
+      internalID: -1459539174120712291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_69
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1218
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a003c824f94f520800000000000000
+      internalID: 2734985981889350278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_70
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1222
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9fb5eb2394eced0800000000000000
+      internalID: -2391893869796263473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_71
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1216
+        width: 50
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b675a24ed80223d0800000000000000
+      internalID: -3233011831804692810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_72
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1223
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f37080a4f19c2070800000000000000
+      internalID: 8082995911074018293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_73
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1182
+        width: 69
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ae4f9c1f80b8800800000000000000
+      internalID: 615595608634616336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_74
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1179
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bfb79da2a8ff3e0800000000000000
+      internalID: -2017742191396652213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_75
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1176
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c3856ef99758240800000000000000
+      internalID: 4793371106077064257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_76
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1199
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e301460fddcdd4580800000000000000
+      internalID: -8841167647679442882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_77
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1179
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7a73921eaaae6c0800000000000000
+      internalID: -4113287425613650011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_78
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1183
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb400d6f956368280800000000000000
+      internalID: -9041479441878874946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_79
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1200
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78f26c27322cd0f0800000000000000
+      internalID: -1090959389367273346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_80
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1199
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f03b7a1dc0375900800000000000000
+      internalID: 673060326785888504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_81
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1047
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dba850c8c813560800000000000000
+      internalID: 7291763804705832348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_82
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1092
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2531b0170e6cf4d0800000000000000
+      internalID: -3099481466913868501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_83
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1047
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5fbcc0d7945c170800000000000000
+      internalID: 8198039498132288950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_84
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1048
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967df1fa88649aed0800000000000000
+      internalID: -2402311373357852823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_85
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1029
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebc3ec9465c469d0800000000000000
+      internalID: -2781881633888547871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_86
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1044
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d62528579a146a0800000000000000
+      internalID: -6466701267764613857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_87
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1046
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e74d94ecce3f580800000000000000
+      internalID: -8794425276578365912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_88
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1035
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec44676950afc970800000000000000
+      internalID: 8777410504615546080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_89
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1039
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29fd447eac3d42d0800000000000000
+      internalID: -3292909032564721362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_90
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1041
+        width: 53
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba605fa3e6b0f5b0800000000000000
+      internalID: -5336564469418923334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_91
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1041
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670dc33614aa67270800000000000000
+      internalID: 8247966965390168182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_92
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1047
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11d7eb44a5359c00800000000000000
+      internalID: 906689879749415196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_93
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1040
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8696bd1090108e70800000000000000
+      internalID: 9115303856957724300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_94
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1042
+        width: 54
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfb2431dc324fa60800000000000000
+      internalID: 7706824226036170691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_95
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1041
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d219289b1e557b0800000000000000
+      internalID: -5236030804872581748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_96
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1050
+        width: 25
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3386b0057d8e0e0800000000000000
+      internalID: -2240304075828087810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_97
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1048
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f8ee88db710e980800000000000000
+      internalID: -8511777192916643998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_98
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1061
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006c69e7302b987a0800000000000000
+      internalID: -6374368069487770112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_99
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1059
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbaa28f867a96a90800000000000000
+      internalID: -7320135650032047150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_100
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1024
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b02d1bd05f0f650800000000000000
+      internalID: 6264776520839072525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_101
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1056
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35af3026f11e2b680800000000000000
+      internalID: -8740676401868047789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_102
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 1103
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e296eec2ea35fcca0800000000000000
+      internalID: -5994480571463603922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_103
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1062
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c84250a2bccd0460800000000000000
+      internalID: 7209643646056024263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_104
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1053
+        width: 92
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eda8734e8227e240800000000000000
+      internalID: 4820859920536088041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_105
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1053
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdde3eabbf503020800000000000000
+      internalID: 2319459067782684105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_106
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1040
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb96e1f4b4191a650800000000000000
+      internalID: 6242430311148186043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_107
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1031
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d8506ab7e451720800000000000000
+      internalID: 2816243434963438905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_108
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1044
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a66b188dbc08770800000000000000
+      internalID: 8611106618281978465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_109
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1035
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd57d52a62ae54c0800000000000000
+      internalID: -4296818417679770118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_110
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 996
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a14504c40fe0530800000000000000
+      internalID: 3823257343971564056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_111
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1037
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5581b7c52f3d9ce0800000000000000
+      internalID: -1396890877918345889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_112
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1044
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0680fbd40cac18140800000000000000
+      internalID: 4720276811747887200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_113
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1051
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841c90f56e6333de0800000000000000
+      internalID: -1354678699843534520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_114
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1029
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e846eb753e7f530800000000000000
+      internalID: 3888826769253633545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_115
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1057
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be412d227f8e6f20800000000000000
+      internalID: 3417826887766986422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_116
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 916
+        width: 21
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f75c1818d06e170800000000000000
+      internalID: 8207262220808454019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_117
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 913
+        width: 22
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ff3e7259b16ff90800000000000000
+      internalID: -6920313449974857885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_118
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 908
+        width: 54
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcaf7ac8f03fd470800000000000000
+      internalID: 8421503673313504503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_119
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 910
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4e68c974cc76a00800000000000000
+      internalID: 749792470921307386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_120
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 925
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8200d8cfbd48010800000000000000
+      internalID: 1190318079276493010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_121
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 926
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77d9bd6bd675cd40800000000000000
+      internalID: 5604015996143261567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_122
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 988
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daae78d53e5565e20800000000000000
+      internalID: 3338950608756927149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_123
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 928
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715915f39f1c39ed0800000000000000
+      internalID: -2408368099459754729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_124
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 923
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd5a8169f9d69ee0800000000000000
+      internalID: -1254575781069562443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_125
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 984
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14cc78b5dbc34900800000000000000
+      internalID: 667601288564622364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_126
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 921
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f277a6d659f5ce70800000000000000
+      internalID: 9134981570554721008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_127
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 918
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12511c1a039cc9550800000000000000
+      internalID: 6169026800300135713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_128
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 904
+        width: 58
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91317f4b9d52aab40800000000000000
+      internalID: 5452211915859628825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_129
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 895
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b629b2586155174c0800000000000000
+      internalID: -4291555414695505301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_130
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 902
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4dd306e63a68d50800000000000000
+      internalID: 6739253586862920914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_131
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 904
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba13d0a3709b0f3e0800000000000000
+      internalID: -2021912791999499861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_132
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 886
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db0aa9ff3c675560800000000000000
+      internalID: 7302424342831958994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_133
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 904
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f0aeebc997a9890800000000000000
+      internalID: -7450508919406194909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_134
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 916
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e649e0115eb911cc0800000000000000
+      internalID: -3742038407232187282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_135
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 902
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409ab34ddb6d6da40800000000000000
+      internalID: 5392733714620590340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_136
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 906
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d959a2465e6c710800000000000000
+      internalID: 1713308926634990928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_137
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 902
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2846f38374e3c7d0800000000000000
+      internalID: -2899222550310139858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_138
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 905
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faddd1ae2bd380d0800000000000000
+      internalID: -3421650298540795149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_139
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 916
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e50b61806d1a08c0800000000000000
+      internalID: -4032378216031517212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_140
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 909
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e294430b5ba818f10800000000000000
+      internalID: 2270248200121370926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_141
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 920
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aaf5ceec6ff4d050800000000000000
+      internalID: 5824561061424396966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_142
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 917
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c35f329ce8739b0800000000000000
+      internalID: -5100451058430952321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_143
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 926
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec26ec3597933500800000000000000
+      internalID: 374809861229522153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_144
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 924
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36f6f2f507af9a90800000000000000
+      internalID: -7304936426578708933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_145
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 887
+        width: 65
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45e0a7e34406fa00800000000000000
+      internalID: 789823474345502028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_146
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 932
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24c27de86ab603d0800000000000000
+      internalID: -3240697922023406549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_147
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 932
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517afd476f51f8a90800000000000000
+      internalID: -7309599521932073195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_148
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 928
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ec5c4fcb6c21e00800000000000000
+      internalID: 1014091380974538269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_149
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 936
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2788d39a9e3aba550800000000000000
+      internalID: 6173207938203486322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_150
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 744
+        width: 49
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f879ef449614f5ad0800000000000000
+      internalID: -2711376530268842097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_151
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 759
+        width: 25
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516272c48083b5ba0800000000000000
+      internalID: -6099219662054676971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_152
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 747
+        width: 41
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61147c4d2c801e970800000000000000
+      internalID: 8782310381235683606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_153
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 802
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a984f0103f2792a0800000000000000
+      internalID: -6730859234592519775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_154
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 736
+        width: 21
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b139ad57bd64e8970800000000000000
+      internalID: 8759016233671234331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_155
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 734
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1054a537c4fea44b0800000000000000
+      internalID: -5455284886974085887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_156
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 738
+        width: 52
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2773aebc1e6c1c0800000000000000
+      internalID: -4483648113076636936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_157
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 751
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943f570bca52b67d0800000000000000
+      internalID: -2924202109421882551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_158
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 760
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae644400977879980800000000000000
+      internalID: -8532202015264848150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_159
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 809
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f741c501bc06950800000000000000
+      internalID: 6440370738264571730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_160
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 704
+        width: 56
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e303bdeb8cfe1850800000000000000
+      internalID: 6349790202557563874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_161
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 752
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b3870eea1003420800000000000000
+      internalID: 2607586034849430308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_162
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 758
+        width: 45
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacdc28f3db95ad90800000000000000
+      internalID: -7087087103893513046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_163
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 752
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f5b4a20472759f0800000000000000
+      internalID: -479871678750695633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_164
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 751
+        width: 55
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d477b21a6ed46f0800000000000000
+      internalID: -698648787279196791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_165
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 749
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a4bcf36f29dad10800000000000000
+      internalID: 2138526984400751215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_166
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 747
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd8f7eb79f4644c0800000000000000
+      internalID: -4303664880751243830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_167
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 741
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9c3e5242bb406c0800000000000000
+      internalID: -4178008790364075539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_168
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 745
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3d49e6b69066310800000000000000
+      internalID: 1397815091366515629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_169
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 749
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d4c5da29b0c0520800000000000000
+      internalID: 2669521403725499694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_170
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 733
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef1a3a55596bea30800000000000000
+      internalID: 4245602889033719783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_171
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 728
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd79d11327d00170800000000000000
+      internalID: 8142744671909150138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_172
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 739
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384985c129d0fa470800000000000000
+      internalID: 8407953950515958915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_173
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 733
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0383cfba4e89ddb0800000000000000
+      internalID: -4766622278898973940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_174
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 727
+        width: 90
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dbe5b5a378c93b0800000000000000
+      internalID: -5504375959842800314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_175
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 729
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33386bc6f448aa3f0800000000000000
+      internalID: -888752499791068365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_176
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 738
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed5ce7a6bd727740800000000000000
+      internalID: 5148315547492703716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_177
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 747
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a4ef99db62402f0800000000000000
+      internalID: -1007637820849894855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_178
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 742
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd846aaaf89634a0800000000000000
+      internalID: -6613930800379032114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_179
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 749
+        width: 75
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bddd2a99abc79a0800000000000000
+      internalID: -6233902615162397907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_180
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 759
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428d3a3985d6d14b0800000000000000
+      internalID: -5468094145356376028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_181
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 564
+        width: 84
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2153e6de3ce072900800000000000000
+      internalID: 659512105097901330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_182
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 615
+        width: 109
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f653dcebdd8305890800000000000000
+      internalID: -7471409256767605393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_183
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 633
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f4618040d15fb50800000000000000
+      internalID: 6626234329898307363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_184
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 615
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9882f03e326f6a10800000000000000
+      internalID: 1904849186649704606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_185
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 612
+        width: 57
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce661f7cb868090a0800000000000000
+      internalID: -6876848696081684756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_186
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 612
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce7556f7e7291f40800000000000000
+      internalID: 5699630680637800139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_187
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 592
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b513d05755159a0800000000000000
+      internalID: -6246117246965294228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_188
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 610
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abafead955ee2620800000000000000
+      internalID: 2751388596457941922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_189
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 667
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427184bf2e6d1c8a0800000000000000
+      internalID: -6286507334465743068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_190
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 613
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95dc81b1aa25a6110800000000000000
+      internalID: 1254906336728632665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_191
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 667
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3457ea0e523b5890800000000000000
+      internalID: -7468320177572588486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_192
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 621
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3edd29b213a3360800000000000000
+      internalID: 7150081421621453766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_193
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 616
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880a9c6dc3f7c5370800000000000000
+      internalID: 8312658911497396360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_194
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 617
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f344028c7052bf810800000000000000
+      internalID: 1800073191417201727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_195
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 619
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5686e25bbe659d70800000000000000
+      internalID: 9049260777099658845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_196
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 671
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2677e7e892e0e80800000000000000
+      internalID: -8210579378665987335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_197
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 619
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015d126490c0a6cd0800000000000000
+      internalID: -2564223803863214832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_198
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 617
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec2d659cdaec0a10800000000000000
+      internalID: 1877133377827319008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_199
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 623
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330824c1abb5a9b20800000000000000
+      internalID: 3141924544940507187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_200
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 614
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f86137117b4d3c90800000000000000
+      internalID: -7188506481120941832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_201
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 602
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b138bfa04df81cf10800000000000000
+      internalID: 2288268226561016603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_202
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 612
+        width: 79
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62fd4941de621d70800000000000000
+      internalID: 9012387649478849130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_203
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 610
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd91be665ddefbba0800000000000000
+      internalID: -6070872271861638689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_204
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 614
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629a18fe8d9f01a00800000000000000
+      internalID: 725354250133154086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_205
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 606
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0900707aeac08580800000000000000
+      internalID: -8826832161388623606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_206
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 70
+        width: 349
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb0be0a232bc31b0800000000000000
+      internalID: -5675465499875800077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_207
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 60
+        width: 322
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6cd216de55369f0800000000000000
+      internalID: -476442657545140497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_208
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 68
+        width: 388
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df3b0f29c92dd0a0800000000000000
+      internalID: -6855277113733595176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_209
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 204
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095ef2990b0328d00800000000000000
+      internalID: 973394004507878800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_210
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 106
+        width: 372
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2772ca27279d78620800000000000000
+      internalID: 2776426780870584178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indicaciones inicio_211
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 159
+        width: 57
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad485e212fc504b10800000000000000
+      internalID: 1963671632302408922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      indicaciones inicio_0: -2859039086060033302
+      indicaciones inicio_1: -5367294582076132185
+      indicaciones inicio_10: 5791252909713802196
+      indicaciones inicio_100: 6264776520839072525
+      indicaciones inicio_101: -8740676401868047789
+      indicaciones inicio_102: -5994480571463603922
+      indicaciones inicio_103: 7209643646056024263
+      indicaciones inicio_104: 4820859920536088041
+      indicaciones inicio_105: 2319459067782684105
+      indicaciones inicio_106: 6242430311148186043
+      indicaciones inicio_107: 2816243434963438905
+      indicaciones inicio_108: 8611106618281978465
+      indicaciones inicio_109: -4296818417679770118
+      indicaciones inicio_11: -281842335472892488
+      indicaciones inicio_110: 3823257343971564056
+      indicaciones inicio_111: -1396890877918345889
+      indicaciones inicio_112: 4720276811747887200
+      indicaciones inicio_113: -1354678699843534520
+      indicaciones inicio_114: 3888826769253633545
+      indicaciones inicio_115: 3417826887766986422
+      indicaciones inicio_116: 8207262220808454019
+      indicaciones inicio_117: -6920313449974857885
+      indicaciones inicio_118: 8421503673313504503
+      indicaciones inicio_119: 749792470921307386
+      indicaciones inicio_12: 3957322691088690049
+      indicaciones inicio_120: 1190318079276493010
+      indicaciones inicio_121: 5604015996143261567
+      indicaciones inicio_122: 3338950608756927149
+      indicaciones inicio_123: -2408368099459754729
+      indicaciones inicio_124: -1254575781069562443
+      indicaciones inicio_125: 667601288564622364
+      indicaciones inicio_126: 9134981570554721008
+      indicaciones inicio_127: 6169026800300135713
+      indicaciones inicio_128: 5452211915859628825
+      indicaciones inicio_129: -4291555414695505301
+      indicaciones inicio_13: -5559056345677230145
+      indicaciones inicio_130: 6739253586862920914
+      indicaciones inicio_131: -2021912791999499861
+      indicaciones inicio_132: 7302424342831958994
+      indicaciones inicio_133: -7450508919406194909
+      indicaciones inicio_134: -3742038407232187282
+      indicaciones inicio_135: 5392733714620590340
+      indicaciones inicio_136: 1713308926634990928
+      indicaciones inicio_137: -2899222550310139858
+      indicaciones inicio_138: -3421650298540795149
+      indicaciones inicio_139: -4032378216031517212
+      indicaciones inicio_14: -2558965289848603724
+      indicaciones inicio_140: 2270248200121370926
+      indicaciones inicio_141: 5824561061424396966
+      indicaciones inicio_142: -5100451058430952321
+      indicaciones inicio_143: 374809861229522153
+      indicaciones inicio_144: -7304936426578708933
+      indicaciones inicio_145: 789823474345502028
+      indicaciones inicio_146: -3240697922023406549
+      indicaciones inicio_147: -7309599521932073195
+      indicaciones inicio_148: 1014091380974538269
+      indicaciones inicio_149: 6173207938203486322
+      indicaciones inicio_15: 365281580991772924
+      indicaciones inicio_150: -2711376530268842097
+      indicaciones inicio_151: -6099219662054676971
+      indicaciones inicio_152: 8782310381235683606
+      indicaciones inicio_153: -6730859234592519775
+      indicaciones inicio_154: 8759016233671234331
+      indicaciones inicio_155: -5455284886974085887
+      indicaciones inicio_156: -4483648113076636936
+      indicaciones inicio_157: -2924202109421882551
+      indicaciones inicio_158: -8532202015264848150
+      indicaciones inicio_159: 6440370738264571730
+      indicaciones inicio_16: -4635715905537413042
+      indicaciones inicio_160: 6349790202557563874
+      indicaciones inicio_161: 2607586034849430308
+      indicaciones inicio_162: -7087087103893513046
+      indicaciones inicio_163: -479871678750695633
+      indicaciones inicio_164: -698648787279196791
+      indicaciones inicio_165: 2138526984400751215
+      indicaciones inicio_166: -4303664880751243830
+      indicaciones inicio_167: -4178008790364075539
+      indicaciones inicio_168: 1397815091366515629
+      indicaciones inicio_169: 2669521403725499694
+      indicaciones inicio_17: -7998228903954756542
+      indicaciones inicio_170: 4245602889033719783
+      indicaciones inicio_171: 8142744671909150138
+      indicaciones inicio_172: 8407953950515958915
+      indicaciones inicio_173: -4766622278898973940
+      indicaciones inicio_174: -5504375959842800314
+      indicaciones inicio_175: -888752499791068365
+      indicaciones inicio_176: 5148315547492703716
+      indicaciones inicio_177: -1007637820849894855
+      indicaciones inicio_178: -6613930800379032114
+      indicaciones inicio_179: -6233902615162397907
+      indicaciones inicio_18: -6039902619633187443
+      indicaciones inicio_180: -5468094145356376028
+      indicaciones inicio_181: 659512105097901330
+      indicaciones inicio_182: -7471409256767605393
+      indicaciones inicio_183: 6626234329898307363
+      indicaciones inicio_184: 1904849186649704606
+      indicaciones inicio_185: -6876848696081684756
+      indicaciones inicio_186: 5699630680637800139
+      indicaciones inicio_187: -6246117246965294228
+      indicaciones inicio_188: 2751388596457941922
+      indicaciones inicio_189: -6286507334465743068
+      indicaciones inicio_19: -3472460195356522919
+      indicaciones inicio_190: 1254906336728632665
+      indicaciones inicio_191: -7468320177572588486
+      indicaciones inicio_192: 7150081421621453766
+      indicaciones inicio_193: 8312658911497396360
+      indicaciones inicio_194: 1800073191417201727
+      indicaciones inicio_195: 9049260777099658845
+      indicaciones inicio_196: -8210579378665987335
+      indicaciones inicio_197: -2564223803863214832
+      indicaciones inicio_198: 1877133377827319008
+      indicaciones inicio_199: 3141924544940507187
+      indicaciones inicio_2: 1996488996160968851
+      indicaciones inicio_20: 1567357422295479020
+      indicaciones inicio_200: -7188506481120941832
+      indicaciones inicio_201: 2288268226561016603
+      indicaciones inicio_202: 9012387649478849130
+      indicaciones inicio_203: -6070872271861638689
+      indicaciones inicio_204: 725354250133154086
+      indicaciones inicio_205: -8826832161388623606
+      indicaciones inicio_206: -5675465499875800077
+      indicaciones inicio_207: -476442657545140497
+      indicaciones inicio_208: -6855277113733595176
+      indicaciones inicio_209: 973394004507878800
+      indicaciones inicio_21: 5099963189218714499
+      indicaciones inicio_210: 2776426780870584178
+      indicaciones inicio_211: 1963671632302408922
+      indicaciones inicio_22: -4370386731937458695
+      indicaciones inicio_23: -4722647696993516683
+      indicaciones inicio_24: -3334647361748710822
+      indicaciones inicio_25: 3410165461763599261
+      indicaciones inicio_26: -4520670836788062045
+      indicaciones inicio_27: 7199224622730864424
+      indicaciones inicio_28: 3258452775867160270
+      indicaciones inicio_29: -406817446181947245
+      indicaciones inicio_3: -5343219648757273215
+      indicaciones inicio_30: -3985766775293319512
+      indicaciones inicio_31: -8380690040757965272
+      indicaciones inicio_32: -2849613257285440871
+      indicaciones inicio_33: -7186074966828663486
+      indicaciones inicio_34: -3740045049046502950
+      indicaciones inicio_35: -8028251675777411013
+      indicaciones inicio_36: -6977617241209895403
+      indicaciones inicio_37: -132373512313885563
+      indicaciones inicio_38: -7489270644012097638
+      indicaciones inicio_39: -1197907035305038978
+      indicaciones inicio_4: -3602492390252721460
+      indicaciones inicio_40: 1233937895528706646
+      indicaciones inicio_41: -373915865768957397
+      indicaciones inicio_42: -873806137520832530
+      indicaciones inicio_43: -7228534714005107761
+      indicaciones inicio_44: -2388505855964566822
+      indicaciones inicio_45: -6196852437073476155
+      indicaciones inicio_46: 1587232570735978148
+      indicaciones inicio_47: 6769799057759217828
+      indicaciones inicio_48: 831726690225240899
+      indicaciones inicio_49: -2651617885931388614
+      indicaciones inicio_5: 6853729179929744826
+      indicaciones inicio_50: 7150664525486333395
+      indicaciones inicio_51: 9022288052490448378
+      indicaciones inicio_52: 4701064889657826299
+      indicaciones inicio_53: -7113475224570511521
+      indicaciones inicio_54: -157936071378955069
+      indicaciones inicio_55: -4229580209900167295
+      indicaciones inicio_56: 7182591630098942705
+      indicaciones inicio_57: -4402820475882736492
+      indicaciones inicio_58: -3915460919954979339
+      indicaciones inicio_59: 6288590742785993836
+      indicaciones inicio_6: -4960235486017645408
+      indicaciones inicio_60: 5348458313071282991
+      indicaciones inicio_61: -4693405280029145943
+      indicaciones inicio_62: 7682966080499458231
+      indicaciones inicio_63: 980062079089249667
+      indicaciones inicio_64: -2004914559238721267
+      indicaciones inicio_65: -6821200680339995294
+      indicaciones inicio_66: 3912628342841668126
+      indicaciones inicio_67: -1971403724533703703
+      indicaciones inicio_68: -1459539174120712291
+      indicaciones inicio_69: 2734985981889350278
+      indicaciones inicio_7: 1839926699980176655
+      indicaciones inicio_70: -2391893869796263473
+      indicaciones inicio_71: -3233011831804692810
+      indicaciones inicio_72: 8082995911074018293
+      indicaciones inicio_73: 615595608634616336
+      indicaciones inicio_74: -2017742191396652213
+      indicaciones inicio_75: 4793371106077064257
+      indicaciones inicio_76: -8841167647679442882
+      indicaciones inicio_77: -4113287425613650011
+      indicaciones inicio_78: -9041479441878874946
+      indicaciones inicio_79: -1090959389367273346
+      indicaciones inicio_8: 2121162789820822636
+      indicaciones inicio_80: 673060326785888504
+      indicaciones inicio_81: 7291763804705832348
+      indicaciones inicio_82: -3099481466913868501
+      indicaciones inicio_83: 8198039498132288950
+      indicaciones inicio_84: -2402311373357852823
+      indicaciones inicio_85: -2781881633888547871
+      indicaciones inicio_86: -6466701267764613857
+      indicaciones inicio_87: -8794425276578365912
+      indicaciones inicio_88: 8777410504615546080
+      indicaciones inicio_89: -3292909032564721362
+      indicaciones inicio_9: -3543618762048627969
+      indicaciones inicio_90: -5336564469418923334
+      indicaciones inicio_91: 8247966965390168182
+      indicaciones inicio_92: 906689879749415196
+      indicaciones inicio_93: 9115303856957724300
+      indicaciones inicio_94: 7706824226036170691
+      indicaciones inicio_95: -5236030804872581748
+      indicaciones inicio_96: -2240304075828087810
+      indicaciones inicio_97: -8511777192916643998
+      indicaciones inicio_98: -6374368069487770112
+      indicaciones inicio_99: -7320135650032047150
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
