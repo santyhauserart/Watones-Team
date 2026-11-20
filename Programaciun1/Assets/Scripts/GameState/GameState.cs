@@ -55,4 +55,7 @@ public static class GameState
     //Es la foto de currentRoom en el momento en que pasaste por un punto de guardado.
 
     public static bool saveIntroSeen = false;
+
+    public static int defeatCount = 0;
+    //Es cuántas veces perdiste. Si llega al máximo, se muestra la escena de Game Over.
 }

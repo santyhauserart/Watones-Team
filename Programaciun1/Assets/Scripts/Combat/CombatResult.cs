@@ -20,6 +20,9 @@ public class CombatResult : MonoBehaviour
     [SerializeField] private int fleeDamage = 1;
     //Es cuánta vida perdés por huir. int es un número entero, sin coma.
     [SerializeField] private AudioClip fleeSound;
+    [SerializeField] private string winScene = "VictoryScene";   // escena que se muestra al ganar
+    [SerializeField] private string loseScene = "GameOverScene"; // escena que se muestra al perder
+    [SerializeField] private int maxDefeats = 3; // cuántas derrotas hacen falta para ver la escena de Game Over
     private void Update()
     {
         //Esto es solo para testear (despues borrarlo)
@@ -48,7 +51,8 @@ public class CombatResult : MonoBehaviour
         }
         GameState.encounterGuards.Clear();
         //Borra la libretita del combate, porque ese combate ya terminó.
-        SceneFader.Load(prototypeScene);
+        SceneFader.Load(winScene); // antes: SceneFader.Load(prototypeScene);
+        //SceneFader.Load(prototypeScene);
         //SceneManager.LoadScene(prototypeScene);
         //Te lleva de vuelta al mapa. Carga la escena cuyo nombre está en prototypeScene.
     }
@@ -86,7 +90,18 @@ public class CombatResult : MonoBehaviour
         {
             GameState.currentRoom = "";
         }
-        SceneFader.Load(prototypeScene);
+        GameState.defeatCount++; // suma una derrota
+
+        if (GameState.defeatCount >= maxDefeats)
+        {
+            GameState.defeatCount = 0;        // reinicia el contador para la próxima vez
+            SceneFader.Load(loseScene);       // llegó al máximo: escena de Game Over
+        }
+        else
+        {
+            SceneFader.Load(prototypeScene);  // todavía no: vuelve al mapa como siempre
+        }
+        //SceneFader.Load(prototypeScene);
         //SceneManager.LoadScene(prototypeScene);
         //Te lleva de vuelta al mapa.
     }
