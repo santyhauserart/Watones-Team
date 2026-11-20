@@ -6,6 +6,8 @@ public class Gate : MonoBehaviour
 //Cuenta cuántos botones están apretados y, cuando llega al número que necesita, apaga su collider y la reja deja pasar.
 #endregion
 {
+    [SerializeField] private AudioClip openSound;
+    //El sonido de cuando la reja se abre.
     [SerializeField] int buttonsNeeded = 2;
     #region Botones que hacen falta
     //Es cuántos botones hay que apretar para abrir la reja.
@@ -55,6 +57,7 @@ public class Gate : MonoBehaviour
             //Apaga el cuerpo de la reja. Sin collider, ya no choca con nada y se puede pasar. Así se "abre".
             //Ojo: la reja sigue estando a la vista. Solo deja de bloquear.
             #endregion
+            SfxPlayer.Play(openSound);   // NUEVO
         }
     }
     public void ButtonReleased()

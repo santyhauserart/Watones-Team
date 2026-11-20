@@ -6,6 +6,8 @@ public class CombatResult : MonoBehaviour
 //Esto es solo para testear (despues borrarlo)
 
 {
+    [SerializeField] private AudioClip winSound;
+    //El sonido de cuando ganás el combate.
     [SerializeField] private string prototypeScene = "PrototypeScene";
     //Es el nombre de la escena del mapa, la puerta por la que volvés.
 
@@ -33,7 +35,7 @@ public class CombatResult : MonoBehaviour
     public void Win()
     {
         if (SceneFader.IsBusy) return;
-        SfxPlayer.Play(fleeSound);
+        SfxPlayer.Play(winSound);   // CAMBIADO: antes fleeSound
         foreach (int id in GameState.encounterGuards)
         //Es recorrer la libretita de los guardias del combate: agarra los números de a uno, y lo de adentro se hace con cada uno.
         {
@@ -112,6 +114,7 @@ public class CombatResult : MonoBehaviour
 
         GameState.encounterImmuneUntil = Time.time + fleeImmunitySeconds;
         //Hace dormir al enemigo. Anota la hora hasta la que no puede atraparte.
+        SfxPlayer.Play(fleeSound);   // NUEVO
         SceneFader.Load(prototypeScene);
         //SceneManager.LoadScene(prototypeScene);
         //Te lleva de vuelta al mapa.

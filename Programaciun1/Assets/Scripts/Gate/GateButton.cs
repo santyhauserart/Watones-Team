@@ -15,7 +15,11 @@ public class GateButton : MonoBehaviour
     [SerializeField] SpriteRenderer visual;                     // NUEVO: el sprite que se ve (se arrastra en el Inspector)
     [SerializeField] Color releasedColor = Color.white;         // NUEVO: color con nadie encima
     [SerializeField] Color pressedColor = Color.yellow;         // NUEVO: color apretado
+    [SerializeField] private AudioClip pressSound;
+    //El sonido de cuando alguien pisa el botón.
 
+    [SerializeField] private AudioClip releaseSound;
+    //El sonido de cuando el botón queda libre.
     int occupants;
     #region Cuántos están encima
     //Es cuántas personas están paradas arriba del botón ahora.
@@ -46,6 +50,7 @@ public class GateButton : MonoBehaviour
         {                                                       // NUEVO
             gate.ButtonPressed();                               // IGUAL (movida adentro de las llaves)
             SetPressed(true);                                   // NUEVO: pinta el botón de apretado
+            SfxPlayer.Play(pressSound);   // NUEVO
         }                                                       // NUEVO
     }
     void Awake()                                                // NUEVO (método entero)
@@ -76,6 +81,7 @@ public class GateButton : MonoBehaviour
         {                                                       // NUEVO
             gate.ButtonReleased();                              // IGUAL (movida adentro de las llaves)
             SetPressed(false);                                  // NUEVO: vuelve al color de suelto
+            SfxPlayer.Play(releaseSound);   // NUEVO
         }
     }
 }

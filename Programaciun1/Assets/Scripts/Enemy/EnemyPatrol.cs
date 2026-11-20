@@ -56,7 +56,8 @@ public class EnemyPatrol : MonoBehaviour
     //string: un texto. = "CombatScene": empieza con ese nombre.
     //Tiene que estar escrito igual que la escena, y la escena tiene que estar en Build Profiles (Build Settings).
     #endregion
-
+    [SerializeField] private AudioClip encounterSound;
+    //El sonido de cuando el guardia te atrapa.
     [SerializeField] private int attackPattern = 0;
     private void Start()
     {
@@ -135,6 +136,7 @@ public class EnemyPatrol : MonoBehaviour
                 #region Marcar que te agarró
                 //Cambia el cartelito a sí: ya te agarró. Así no te agarra otra vez en el cuadro siguiente.
                 #endregion
+                SfxPlayer.Play(encounterSound);   // NUEVO
                 player.SetCanMove(false);
                 #region Congelar al jugador
                 //Congela al jugador para que no se escape mientras carga el combate.

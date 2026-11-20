@@ -2,23 +2,27 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SavePoint : MonoBehaviour
-//guarda la posicion del jugador en el overworld y los enemigos que fueron derrotados
+//guarda la posicion del jugador y los enemigos derrotados cuando apretas Z cerca.
+//El Dialogue muestra "guardaste la partida" y el juego queda en pausa hasta que cierres el texto.
 {
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.GetComponent<Player>() != null)
-        //Si colisiona con el player
-        {
-            GameState.savePointPosition = transform.position;
-            //se guarda la posicion del save point en GameState (codigo que no se reinicia durante cambios de escena)
-            GameState.hasSavePoint = true;
-            //afirma que hay un savepoint activo, se lo pasa a GameState
-            GameState.savedDefeatedGuards = new List<int>(GameState.defeatedGuards);
-            //guarda los enemigos derrotados creando una lista nueva con la cantidad de guardias
-            //derrotados(sin guardar aun) que tambien se encuentra en GameState
+    [SerializeField] private Dialogue dialogue;        // el dialogo que dice "guardaste la partida"
+    [SerializeField] private AudioClip saveSound;      // un sonido opcional al guardar
 
-            //nuevo
-            GameState.savedRoom = GameState.currentRoom; //sacar la foto
+    private void Start()
+    {
+        if (dialogue != null)
+        {
+            dialogue.onStarted += Save;                // anotate para escuchar el timbre
         }
+    }
+
+    private void Save()
+    {
+        GameState.savePointPosition = transform.position;
+        GameState.hasSavePoint = true;
+        GameState.savedDefeatedGuards = new List<int>(GameState.defeatedGuards);
+        GameState.savedRoom = GameState.currentRoom;
+        SfxPlayer.Play(saveSound);
+        Debug.Log("partida guardada");
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI; // NUEVO: para poder usar Image
 public class Dialogue : MonoBehaviour
 #region Qué hace el script
 //Este script es una conversación con un personaje: cuando te acercás y apretás Z, aparece una cajita de texto
@@ -21,6 +22,8 @@ public class Dialogue : MonoBehaviour
     #region El texto que se escribe
     //Es el texto donde se van escribiendo las frases. Se arrastra desde el Inspector.
     #endregion
+    [SerializeField] private Image portraitImage; // NUEVO: el espacio de la foto, dentro del panel
+    [SerializeField] private Sprite portrait; // NUEVO: la foto de este NPC
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
     #region Las frases de la charla
     //Es la lista de frases que dice el personaje, en orden. Se escriben en el Inspector.
@@ -42,6 +45,27 @@ public class Dialogue : MonoBehaviour
     #region Tiempo entre letras
     //Es cuántos segundos pasan entre una letra y la siguiente cuando escribe. Más chico, más rápido escribe.
     #endregion
+
+    public System.Action onFinished;
+    public System.Action onStarted;
+    [SerializeField] private AudioClip typeSound;
+    [SerializeField, Range(0f, 1f)] private float typeVolume = 0.5f;
+    [SerializeField, Range(0.5f, 2f)] private float basePitch = 1f;
+    [SerializeField, Range(0f, 0.5f)] private float pitchVariation = 0.1f;
+    [SerializeField] private int letterInterval = 2;
+    private AudioSource voiceSource;
+
+    private void Awake()
+    {
+        voiceSource = gameObject.AddComponent<AudioSource>();
+        voiceSource.playOnAwake = false;
+    }
+    private void PlayBlip()
+    {
+        if (typeSound == null) return;
+        voiceSource.pitch = Random.Range(basePitch - pitchVariation, basePitch + pitchVariation);
+        voiceSource.PlayOneShot(typeSound, typeVolume);
+    }
     void Update()
     {
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.Z))
@@ -89,6 +113,11 @@ public class Dialogue : MonoBehaviour
         #region Mostrar la cajita
         //Muestra el panel de la conversación.
         #endregion
+        if (portraitImage != null) // NUEVO: ¿hay espacio de foto?
+        { // NUEVO
+            portraitImage.sprite = portrait; // NUEVO: ponele la foto de este NPC
+            portraitImage.gameObject.SetActive(portrait != null); // NUEVO: si este NPC no tiene foto, escondé el espacio
+        } // NUEVO
         dialogueMark.SetActive(false);
         #region Esconder el cartelito
         //Esconde el cartelito de "podés hablar", porque ya estás hablando.
@@ -107,32 +136,52 @@ public class Dialogue : MonoBehaviour
         #region Empezar a escribir
         //Arranca la rutina que escribe la frase letra por letra.
         #endregion
+        onStarted?.Invoke();
     }
     private IEnumerator ShowLine()
-    #region La máquina de escribir
-    //Es la rutina que escribe la frase actual, letra por letra.
-    #endregion
     {
         dialogueText.text = string.Empty;
-        #region Borrar el texto
-        //Deja el texto vacío, para empezar a escribir de cero. Es como borrar el pizarrón antes de escribir.
-        #endregion
+        int letterCount = 0;
+
         foreach (char ch in dialogueLines[lineIndex])
-        #region Letra por letra
-        //Es un repetidor: agarra las letras de la frase de a una, y lo de adentro se hace con cada una.
-        #endregion
         {
             dialogueText.text += ch;
-            #region Agregar la letra
-            //Agrega la letra al final de lo que ya está escrito.
-            //+=: significa "sumale". Con texto, sumar es pegar. Ejemplo: "Ho" + "l" queda "Hol".
-            #endregion
+            if (char.IsLetterOrDigit(ch))
+            {
+                if (letterCount % Mathf.Max(1, letterInterval) == 0)
+                {
+                    PlayBlip();
+                }
+                letterCount++;
+            }
             yield return new WaitForSecondsRealtime(typingTime);
-            #region Esperar entre letras
-            //Pausa la rutina un ratito y después sigue con la letra siguiente.
-            #endregion
         }
     }
+    //private IEnumerator ShowLine()
+    //#region La máquina de escribir
+    ////Es la rutina que escribe la frase actual, letra por letra.
+    //#endregion
+    //{
+    //    dialogueText.text = string.Empty;
+    //    #region Borrar el texto
+    //    //Deja el texto vacío, para empezar a escribir de cero. Es como borrar el pizarrón antes de escribir.
+    //    #endregion
+    //    foreach (char ch in dialogueLines[lineIndex])
+    //    #region Letra por letra
+    //    //Es un repetidor: agarra las letras de la frase de a una, y lo de adentro se hace con cada una.
+    //    #endregion
+    //    {
+    //        dialogueText.text += ch;
+    //        #region Agregar la letra
+    //        //Agrega la letra al final de lo que ya está escrito.
+    //        //+=: significa "sumale". Con texto, sumar es pegar. Ejemplo: "Ho" + "l" queda "Hol".
+    //        #endregion
+    //        yield return new WaitForSecondsRealtime(typingTime);
+    //        #region Esperar entre letras
+    //        //Pausa la rutina un ratito y después sigue con la letra siguiente.
+    //        #endregion
+    //    }
+    //}
     private void NextDialogueLine()
     {
         lineIndex++;
@@ -171,6 +220,7 @@ public class Dialogue : MonoBehaviour
             #region Despausar el juego
             //Devuelve el tiempo a la velocidad normal, y el juego sigue.
             #endregion
+            onFinished?.Invoke();
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

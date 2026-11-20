@@ -52,4 +52,6 @@ public static class GameState
     //Es el nombre de la sala donde está la cámara ahora. "" quiere decir: ninguna anotada.
     public static string savedRoom = "";
     //Es la foto de currentRoom en el momento en que pasaste por un punto de guardado.
+
+    public static bool saveIntroSeen = false;
 }
