@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
 #endregion
 {
     #region Variables
+    [SerializeField] private Animator animator; // el Animator del jugador (se arrastra en el Inspector)
     [SerializeField] private RestartLayout RestartLayout;
     #region Reiniciar el nivel
     //Es el script que sabe reiniciar el nivel cuando el jugador muere. Se arrastra desde el Inspector.
@@ -105,6 +106,11 @@ public class Player : MonoBehaviour
     }                                              // NUEVO
     void Start()
     {
+        if (animator != null)
+        {
+            animator.SetFloat("DirX", lastDirection.x);
+            animator.SetFloat("DirY", lastDirection.y);
+        }
         isMoving = true;
         #region Dejar que se mueva
         //Cambia el cartelito a sí: el jugador ya se puede mover.
@@ -135,6 +141,7 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        //Debug.Log("input: " + input + " magnitud: " + input.magnitude);
         input = moveInput.action.ReadValue<Vector2>();
         #region Leer los controles
         //Mira los controles y anota hacia dónde está empujando el jugador.
@@ -151,7 +158,17 @@ public class Player : MonoBehaviour
             #endregion
         }
         if (input.magnitude > 0)
-        #region ¿Se está empujando?
+            #region ¿Se está empujando?
+            //if (animator != null)
+            //{
+            //    // camina si se puede mover y está empujando una dirección
+            //    bool caminando = isMoving && input.magnitude > 0;
+            //    animator.SetBool("Caminando", caminando);
+
+            //    // le pasa la última dirección (se mantiene al quedarse quieto, por eso el idle mira bien)
+            //    animator.SetFloat("DirX", lastDirection.x);
+            //    animator.SetFloat("DirY", lastDirection.y);
+            //}
         //Pregunta: "¿el jugador está apretando alguna dirección?".
         #endregion
         {
@@ -177,6 +194,16 @@ public class Player : MonoBehaviour
                 //Esto hace que solo mire en las 4 direcciones y no en diagonal.
                 #endregion
             }
+        }
+        if (animator != null)
+        {
+            // camina si se puede mover y está empujando una dirección
+            bool caminando = isMoving && input.magnitude > 0;
+            animator.SetBool("Caminando", caminando);
+
+            // le pasa la última dirección (se mantiene al quedarse quieto, por eso el idle mira bien)
+            animator.SetFloat("DirX", lastDirection.x);
+            animator.SetFloat("DirY", lastDirection.y);
         }
         offset = -lastDirection * separation;
         #region Calcular el paso atrás

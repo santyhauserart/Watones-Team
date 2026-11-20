@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // permite cambiar de escena
 public class MenuController : MonoBehaviour
 #region Qué hace el script
 //Este script es el interruptor del menú del juego.
@@ -36,5 +37,11 @@ public class MenuController : MonoBehaviour
             else
                 Debug.Log("menu cerrado");
         }
-    } 
+    }
+    // Método público para que el botón lo pueda llamar desde el Inspector
+    public void VolverAlMenuPrincipal()
+    {
+        Time.timeScale = 1f; // por si algún día pausás el juego, así el menú principal no arranca congelado
+        SceneManager.LoadScene("MenuPrincipal"); // carga la escena del menú (nombre exacto)
+    }
 }

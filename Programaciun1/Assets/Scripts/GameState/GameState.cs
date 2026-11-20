@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+
 public static class GameState
 //es el pizarrón del juego: guarda lo que hay que recordar cuando cambiás de escena
 //(dónde estaba el jugador, qué guardias derrotó, cuánta vida tiene, etc.), porque las escenas se arman de cero y se olvidan de todo.

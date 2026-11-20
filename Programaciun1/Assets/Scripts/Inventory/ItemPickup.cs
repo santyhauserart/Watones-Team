@@ -7,6 +7,7 @@ public class ItemPickup : MonoBehaviour
 {
     [SerializeField] private string itemName = "Potion";
     [SerializeField] private int pickupId; // identificador de cada pocion
+    [SerializeField] private AudioClip pickupSound; // sonido al agarrar la poción
 
     private void Start()
     {
@@ -23,6 +24,7 @@ public class ItemPickup : MonoBehaviour
         {
             Inventory.Add(itemName); // Mete la poción en la "mochila".
             GameState.collectedPickups.Add(pickupId); // Anota en la "libretita" que esta poción ya fue agarrada.
+            SfxPlayer.Play(pickupSound); // suena aunque el objeto desaparezca enseguida
             Destroy(gameObject);
         }
     }
